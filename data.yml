@@ -1,6 +1,9 @@
 current_title: 'Big Data Cloud Engineer'
 employee_name: 'Sam Mylle'
-introduction: Hi! I'm Sam Mylle. I am a Computer Scientist with a big passion for Cloud and Data Engineering. For both these fields, I use Python because of its great power and ease-of-use.
+introduction: >-
+  Hi! I'm Sam Mylle. I am a Computer Scientist with a big passion for Cloud and Data Engineering. For both these
+  fields, I use Python because of its great power and ease-of-use. Fun fact: I deployed this website because I was
+  interested in getting to know more about Terraform and AWS' Amplify, Lambda, Route53 and API Gateway.
 age: 25
 work_areas: 'Belgium: Antwerp, Brussels, Leuven'
 
@@ -24,24 +27,46 @@ work_experience:
   - title: 'Big Data Cloud Engineer'
     employer: 'KBC'
     time: 'April 2021 - Present'
-    Description: 'Foo'
+    description: >-
+      Migration and creation of data pipelines in the AWS Cloud.
+      Technologies used in this context include Python, Jupyter, IntelliJ, PySpark, AWS S3, AWS SSM, AWS ECR,
+      AWS Lambda, Apache Airflow, Kubernetes, Docker, Jenkins, Concourse and Jira.
+      I received training in PySpark and Terraform, which I also continued to use during my spare time.
   - title: 'Data Scientist Consultant'
     employer: 'OMP'
-    time: 'October 2020 - April'
-    Description: 'Bar'
-
+    time: 'October 2020 - April 2021'
+    description: >-
+      OMP is a company selling supply chain planning software. In short, this means that their software takes care of
+      forecasting supply and demand and ensuring that the supply and demand can be met.
+      OMP's software works in three layers: a generic layer, a layer per industry (e.g. chemicals, packaging, etc.) and
+      a client-specific layer. I worked in the generic layer, where I wrote OPAL scripts (their own programming
+      language). These scripts had to be written in such a way that they could be easily reused for all clients.
 education:
   - degree: 'Bachelor in Computer Science'
     institution: 'University of Antwerp'
     time: '2014 - 2017'
-    Description: 'Foo'
+    description: >-
+      Learning how to program in Python and C++. Autonomous learning of technologies based on assignment's requirements.
+      The thesis assignment was to extend the STRIDE simulator of the university. This piece of software simulates
+      the spreading of a disease base on various parameters. The extensions we had to write were: generating synthetic
+      populations, visualising the spread of a disease, implementing distributed processing and creating checkpoints
+      during the simulation.
   - degree: 'Master of Engineering Sciences: Computer Science'
     institution: 'Catholic University of Leuven'
     time: '2017 - 2019'
-    Description: 'Foo'
+    description: >-
+      I chose for some extra courses related to AI. These handled some principles and algorithms in AI such as
+      Multi-Agent-Systems, Genetic Algorithms and Neural Networks. The thesis was about multi-user recommender systems.
+      For example, Netflix can already recommend movies based on your personal preferences, but the situation changes
+      when you're in a group. I implemented two algorithms for this and tested them in a framework I built.
   - degree: 'Master Sciences: Management'
     institution: 'Catholic University of Leuven'
     time: '2019 - 2020'
-    Description: 'Foo'
-
+    description: >-
+      Mix of soft and hard skills related to management e.g. how to motivate people, autonomy of employees,
+      the monetary value of a project and microeconomics. The thesis was a group project about Inventory Routing
+      Optimization. Traditionally, companies manage their own inventories. But when the supplier manages their clients'
+      inventories, they might be able to minimize the costs more efficiently. We wrote two algorithms that kept into
+      account different goals such as avoiding out-of-stock events, minimizing transportation cost and minimizing stock
+      cost.
 linkedin_link: 'https://www.linkedin.com/in/sam-mylle-62b468138/'
