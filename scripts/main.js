@@ -15,6 +15,10 @@ function submit() {
         message: message_el.value
     }
 
+    $("#contact_form").submit(function(e) {
+        e.preventDefault();
+    });
+
     console.log(name_el.checkValidity())
     if (name_el.checkValidity() && email_el.checkValidity() && message.checkValidity()) {
         $.ajax(
