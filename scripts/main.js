@@ -43,6 +43,6 @@ function submit() {
 
         form_element.parentNode.replaceChild(new_form, form_element);
         new_form.reportValidity();
-        form_element.parentNode.replaceChild(form_element, new_form);
+        new_form.parentNode.replaceChild(form_element, new_form);
     }
 }
