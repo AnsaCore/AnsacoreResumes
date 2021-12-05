@@ -36,5 +36,13 @@ function submit() {
                 }
             }
         )
+    } else {
+        var form_element = document.getElementById('contact_form');
+        var new_form = document.createElement('form');
+        new_form.innerHTML = form_element.innerHTML;
+
+        form_element.parentNode.replaceChild(new_form, form_element);
+        new_form.reportValidity();
+        form_element.parentNode.replaceChild(form_element, new_form);
     }
 }
