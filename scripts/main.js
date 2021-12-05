@@ -6,7 +6,7 @@ AOS.init({
 
 // Add your javascript here
 function submit() {
-    var data = {
+    var formData = {
         name: document.getElementById('name').value,
         email: document.getElementById('email').value,
         message: document.getElementById('message').value
@@ -15,7 +15,7 @@ function submit() {
     $.ajax(
         {
             url: "https://api.ansacore.com",
-            body: JSON.stringify(data),
+            data: JSON.stringify(formData),
             type: "POST",
             success: function(result) {
                 console.log(result);
