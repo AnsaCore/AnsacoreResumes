@@ -18,12 +18,12 @@ function submit() {
             body: JSON.stringify(data),
             type: "POST",
             success: function(result) {
-                console.log('yay');
+                console.log(result);
             }
         },
         {
             error: function(error) {
-                console.log('error');
+                console.log(error);
             }
         }
     )
