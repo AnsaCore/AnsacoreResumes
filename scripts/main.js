@@ -28,11 +28,19 @@ function submit() {
                 type: "POST",
                 success: function(result) {
                     console.log(result);
+
+                    var returnMessage = JSON.parse(result.body);
+                    if (returnMessage.message == 'Success') {
+                        showSnackBar('Thank you for your message!');
+                    } else {
+                        showSnackBar('Something went wrong, please try again later.');
+                    }
                 }
             },
             {
                 error: function(error) {
                     console.log(error);
+                    showSnackBar('Something went wrong, please try again later.');
                 }
             }
         )
@@ -40,4 +48,11 @@ function submit() {
         var form_element = document.getElementById('contact_form');
         form_element.reportValidity();
     }
+}
+
+function showSnackBar(msg) {
+    'use strict';
+    var snackbarContainer = document.querySelector('#snackbar');
+    var data = {message: msg, timeout: 5000};
+    snackbarContainer.MaterialSnackbar.showSnackbar(data);
 }
