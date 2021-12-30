@@ -31,6 +31,9 @@ function submit() {
 
                     var returnMessage = JSON.parse(result.body);
                     if (returnMessage.message == 'Success') {
+                        document.getElementById('name').value = '';
+                        document.getElementById('email').value = '';
+                        document.getElementById('message').value = '';
                         showSnackBar('Thank you for your message!');
                     } else {
                         showSnackBar('Something went wrong, please try again later.');
