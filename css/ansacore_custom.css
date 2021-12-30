@@ -1,0 +1,11 @@
+.timeline-card-projects:before {
+  border-color: #8a53e6 !important;
+}
+
+.timeline-card-projects:after {
+  background-color: #8a53e6 !important;
+}
+
+.timeline-card-projects {
+  border-left-color: #8a53e6 !important;
+}

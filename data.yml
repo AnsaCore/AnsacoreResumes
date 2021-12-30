@@ -9,9 +9,9 @@ work_areas: 'Belgium: Antwerp, Brussels, Leuven'
 
 primary_skillset:
   - name: 'Python'
-    proficiency: 90
+    proficiency: 95
   - name: 'AWS'
-    proficiency: 80
+    proficiency: 85
   - name: 'TerraForm'
     proficiency: 70
 
@@ -19,7 +19,7 @@ secondary_skillset:
   - name: 'Azure Cloud'
     proficiency: 60
   - name: 'PySpark'
-    proficiency: 70
+    proficiency: 80
   - name: 'Apache Airflow'
     proficiency: 70
 
@@ -41,6 +41,24 @@ work_experience:
       OMP's software works in three layers: a generic layer, a layer per industry (e.g. chemicals, packaging, etc.) and
       a client-specific layer. I worked in the generic layer, where I wrote OPAL scripts (their own programming
       language). These scripts had to be written in such a way that they could be easily reused for all clients.
+
+interesting_projects:
+  - title: 'Central heating monitor'
+    time: 'December 2021'
+    description: >-
+      We had some trouble with the heating system in our house. My father is quite the handyman, but diagnosing the
+      problem without historical temperatures proved to be quite difficult.
+      I then used a Raspberry Pi with some DS18B20 heat sensors to capture the data in real time. This gave my father
+      the monitoring abilities he needed to find the problem. The technologies I used were: AWS (SSM, DynamoDB
+      Lambda and SNS), PyCharm, Docker, Raspberry Pi OS and Python.
+  - title: 'Setting up this website'
+    time: 'November 2021'
+    description: >-
+      CVs get outdated, websites do not. That is the reason I created this website. Whether I gave you my CV yesterday
+      or last year, you will have the most up-to-date version anyway. Fun fact about this website: I created it in such
+      a way so that my friends would be able to use it as well. The technologies I used were: AWS (Amplify, SSM,
+      Lambda, SNS, API Gateway, S3 and IAM Management), PyCharm, Terraform, Docker and Python.
+
 education:
   - degree: 'Bachelor in Computer Science'
     institution: 'University of Antwerp'
