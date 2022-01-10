@@ -60,23 +60,6 @@ interesting_projects:
       Lambda, SNS, API Gateway, S3 and IAM Management), PyCharm, Terraform, Docker and Python.
 
 education:
-  - degree: 'Bachelor in Computer Science'
-    institution: 'University of Antwerp'
-    time: '2014 - 2017'
-    description: >-
-      Learning how to program in Python and C++. Autonomous learning of technologies based on assignment's requirements.
-      The thesis assignment was to extend the STRIDE simulator of the university. This piece of software simulates
-      the spreading of a disease base on various parameters. The extensions we had to write were: generating synthetic
-      populations, visualising the spread of a disease, implementing distributed processing and creating checkpoints
-      during the simulation.
-  - degree: 'Master of Engineering Sciences: Computer Science'
-    institution: 'Catholic University of Leuven'
-    time: '2017 - 2019'
-    description: >-
-      I chose for some extra courses related to AI. These handled some principles and algorithms in AI such as
-      Multi-Agent-Systems, Genetic Algorithms and Neural Networks. The thesis was about multi-user recommender systems.
-      For example, Netflix can already recommend movies based on your personal preferences, but the situation changes
-      when you're in a group. I implemented two algorithms for this and tested them in a framework I built.
   - degree: 'Master Sciences: Management'
     institution: 'Catholic University of Leuven'
     time: '2019 - 2020'
@@ -87,4 +70,21 @@ education:
       inventories, they might be able to minimize the costs more efficiently. We wrote two algorithms that kept into
       account different goals such as avoiding out-of-stock events, minimizing transportation cost and minimizing stock
       cost.
+  - degree: 'Master of Engineering Sciences: Computer Science'
+    institution: 'Catholic University of Leuven'
+    time: '2017 - 2019'
+    description: >-
+      I chose for some extra courses related to AI. These handled some principles and algorithms in AI such as
+      Multi-Agent-Systems, Genetic Algorithms and Neural Networks. The thesis was about multi-user recommender systems.
+      For example, Netflix can already recommend movies based on your personal preferences, but the situation changes
+      when you're in a group. I implemented two algorithms for this and tested them in a framework I built.
+  - degree: 'Bachelor in Computer Science'
+    institution: 'University of Antwerp'
+    time: '2014 - 2017'
+    description: >-
+      Learning how to program in Python and C++. Autonomous learning of technologies based on assignment's requirements.
+      The thesis assignment was to extend the STRIDE simulator of the university. This piece of software simulates
+      the spreading of a disease base on various parameters. The extensions we had to write were: generating synthetic
+      populations, visualising the spread of a disease, implementing distributed processing and creating checkpoints
+      during the simulation.
 linkedin_link: 'https://www.linkedin.com/in/sam-mylle-62b468138/'
