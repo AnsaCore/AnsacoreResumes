@@ -10,18 +10,42 @@ work_areas: 'Belgium: Antwerp, Brussels, Leuven'
 primary_skillset:
   - name: 'Python'
     proficiency: 95
-  - name: 'AWS'
+  - name: 'AWS (e.g. S3, SSM, ECR, Lambda, SNS, DynamoDB, etc.)'
     proficiency: 85
   - name: 'TerraForm'
     proficiency: 70
+  - name: 'Docker'
+    proficiency: 80
+  - name: 'JetBrains IDEs'
+    proficiency: 80
+  - name: 'PySpark'
+    proficiency: 80
 
 secondary_skillset:
   - name: 'Azure Cloud'
     proficiency: 60
-  - name: 'PySpark'
-    proficiency: 80
   - name: 'Apache Airflow'
     proficiency: 70
+  - name: 'Raspberry pi'
+    proficiency: 60
+  - name: 'Kubernetes'
+    proficiency: 40
+  - name: 'Jenkins'
+    proficiency: 45
+  - name: 'Conourse'
+    proficiency: 60
+
+primary_languages:
+  - name: 'Dutch'
+    proficiency: 100
+  - name: 'English'
+    proficiency: 95
+
+secondary_languages:
+  - name: 'German'
+    proficiency: 60
+  - name: 'French'
+    proficiency: 60
 
 work_experience:
   - title: 'Big Data Cloud Engineer'
@@ -29,9 +53,12 @@ work_experience:
     time: 'April 2021 - Present'
     description: >-
       Migration and creation of data pipelines in the AWS Cloud.
-      Technologies used in this context include Python, Jupyter, IntelliJ, PySpark, AWS S3, AWS SSM, AWS ECR,
-      AWS Lambda, Apache Airflow, Kubernetes, Docker, Jenkins, Concourse and Jira.
-      I received training in PySpark and Terraform, which I also continued to use during my spare time.
+      I used Python, Jupyter, IntelliJ, PySpark, AWS S3, AWS SSM, AWS ECR and AWS Lambda in a development context using
+      the Python boto3 API. I also created DAGs using Apache Airflow, Docker to create containers that had to run on
+      Airflow and Kubernetes to check on running containers with a faulty status. CI/CD pipelines were set up using
+      Concourse and/or Jenkins, which I occasionally had to do.
+      I received formal trainings in PySpark and Terraform, which I also continued to use during my spare time.
+      At the time of writing this, a formal training in Airflow is planned in the near future.
   - title: 'Data Scientist Consultant'
     employer: 'OMP'
     time: 'October 2020 - April 2021'
@@ -43,6 +70,13 @@ work_experience:
       language). These scripts had to be written in such a way that they could be easily reused for all clients.
 
 interesting_projects:
+  - title: 'VueJS research for rapid development of cloud applications'
+    time: 'January 2022'
+    description: >-
+      I am currently looking into creating serverless cloud applications using VueJS and AWS AppSync. These technologies
+      caught my attention through some AWS tutorials and I thought it could be very useful for creating serverless cloud
+      applications. This is an in-progress project that has no real end goal. It is just to get myself familiarized with
+      these technologies.
   - title: 'Central heating monitor'
     time: 'December 2021'
     description: >-
@@ -57,7 +91,7 @@ interesting_projects:
       CVs get outdated, websites do not. That is the reason I created this website. Whether I gave you my CV yesterday
       or last year, you will have the most up-to-date version anyway. Fun fact about this website: I created it in such
       a way so that my friends would be able to use it as well. The technologies I used were: AWS (Amplify, SSM,
-      Lambda, SNS, API Gateway, S3 and IAM Management), PyCharm, Terraform, Docker and Python.
+      Lambda, SNS, API Gateway, Route53, S3 and IAM Management), PyCharm, Terraform, Docker and Python.
 
 education:
   - degree: 'Master Sciences: Management'
