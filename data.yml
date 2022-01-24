@@ -32,7 +32,7 @@ secondary_skillset:
     proficiency: 40
   - name: 'Jenkins'
     proficiency: 45
-  - name: 'Conourse'
+  - name: 'Concourse'
     proficiency: 60
 
 primary_languages:
