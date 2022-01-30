@@ -28,6 +28,7 @@ function submit() {
                 type: "POST",
                 success: function(result) {
                     console.log(result);
+                    console.log('Reported good request')
 
                     var returnMessage = JSON.parse(result.body);
                     if (returnMessage.message == 'Success') {
@@ -43,6 +44,7 @@ function submit() {
             {
                 error: function(error) {
                     console.log(error);
+                    console.log('Reported bad request')
                     showSnackBar('Something went wrong, please try again later.');
                 }
             }
