@@ -73,10 +73,16 @@ interesting_projects:
   - title: 'VueJS research for rapid development of cloud applications'
     time: 'January 2022'
     description: >-
-      I am currently looking into creating serverless cloud applications using VueJS and AWS AppSync. These technologies
-      caught my attention through some AWS tutorials and I thought it could be very useful for creating serverless cloud
-      applications. This is an in-progress project that has no real end goal. It is just to get myself familiarized with
-      these technologies.
+      Serverless cloud applications are key in the world of tomorrow. I set up a polling website using Terraform,
+      AWS (DynamoDB, Amplify, S3, Lambda, Route53 and API Gateway) and VueJS. People can vote on the Belgian-Dutch
+      Big Brother television show. Yes this show is a guilty pleasure of mine! I also experimented with Google AdSense,
+      but sadly they do not place ads on websites whose content is rendered by JavaScript. I've also incorporated some
+      data engineering in there. Basically every 10 minutes, the data is ingested into AWS S3 and processed using an
+      AWS Lambda. This data can then be shown to the users of my website. What makes this really fun is that I have
+      a fully available website that took about 3 days to create without the hassle of infrastructure management.
+      It also costs 20 cents per month to keep it operational while having approximately 30.000 visitors
+      per week. Serverless FTW! You can visit the website
+      <a target="_blank" href='https://bigbrother-nlbe-poll.ansacore.com'>here</a>.
   - title: 'Central heating monitor'
     time: 'December 2021'
     description: >-
