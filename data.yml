@@ -98,6 +98,15 @@ interesting_projects:
       or last year, you will have the most up-to-date version anyway. Fun fact about this website: I created it in such
       a way so that my friends would be able to use it as well. The technologies I used were: AWS (Amplify, SSM,
       Lambda, SNS, API Gateway, Route53, S3 and IAM Management), PyCharm, Terraform, Docker and Python.
+  - title: 'Teaching'
+    time: 'November 2021'
+    description: >-
+      Due to Covid-19, some students are falling behind in school. A popular course from which troubles arise is math,
+      which is why I started teaching it using <a href='https://bijleshuis.be' target='#blank'>BijlesHuis</a>. The
+      student provides me with the course material and I prepare some exercises
+      to solve together or answer any theoretical questions they may have. If they already did some tests, I also
+      provide them with the answers and a detailed explanation on how to get the answer. Theoretically, I could also
+      provide lessons in Python, but this is far less popular.
 
 education:
   - degree: 'Master Sciences: Management'
