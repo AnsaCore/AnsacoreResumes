@@ -50,7 +50,7 @@ secondary_languages:
 work_experience:
   - title: 'Data Engineer in the AWS Cloud'
     employer: 'KBC'
-    time: 'April 2021 - Present'
+    time: '2021 - Present'
     description: >-
       Migration and creation of data pipelines in the AWS Cloud.
       I used Python, Jupyter, IntelliJ, PySpark, AWS S3, AWS SSM, AWS ECR and AWS Lambda in a development context using
@@ -61,7 +61,7 @@ work_experience:
       At the time of writing this, a formal training in Airflow is planned in the near future.
   - title: 'Data Scientist Consultant'
     employer: 'OMP'
-    time: 'October 2020 - April 2021'
+    time: '2020 - 2021'
     description: >-
       OMP is a company selling supply chain planning software. In short, this means that their software takes care of
       forecasting supply and demand and ensuring that the supply and demand can be met.
@@ -70,6 +70,13 @@ work_experience:
       language). These scripts had to be written in such a way that they could be easily reused for all clients.
 
 interesting_projects:
+  - title: 'Exploring Google Cloud Platform'
+    time: 'March 2022'
+    description: >-
+      I've been focussing on AWS a lot. While AWS does shine in it's vast service offering and cost leadership, I
+      thought it might still be interesting to explore other options. From what I understood so far, GCP really excels
+      in AI and Machine Learning services. That's why I've decide to make myself comfortable with GCP as well. I
+      haven't been able to start exploring yet though because account verification is taking quite some time.
   - title: 'VueJS research for rapid development of cloud applications'
     time: 'January 2022'
     description: >-
@@ -80,7 +87,7 @@ interesting_projects:
       data engineering in there. Basically every 10 minutes, the data is ingested into AWS S3 and processed using an
       AWS Lambda. This data can then be shown to the users of my website. What makes this really fun is that I have
       a fully available website that took about 3 days to create without the hassle of infrastructure management.
-      It also costs 20 cents per month to keep it operational while having approximately 30.000 visitors
+      It also costs 50 cents per month to keep it operational while having approximately 30.000 visitors
       per week. Serverless FTW! You can visit the website
       <a target="_blank" href='https://bigbrother-nlbe-poll.ansacore.com'>here</a>.
   - title: 'Central heating monitor'
