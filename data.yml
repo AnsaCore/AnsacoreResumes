@@ -17,7 +17,7 @@ primary_skillset:
   - name: 'Docker'
     proficiency: 80
   - name: 'JetBrains IDEs'
-    proficiency: 80
+    proficiency: 85
   - name: 'PySpark'
     proficiency: 80
 
@@ -32,7 +32,7 @@ secondary_skillset:
     proficiency: 40
   - name: 'Jenkins'
     proficiency: 45
-  - name: 'Concourse'
+  - name: 'Google Cloud Platform'
     proficiency: 60
 
 primary_languages:
@@ -53,10 +53,11 @@ work_experience:
     time: '2021 - Present'
     description: >-
       Migration and creation of data pipelines in the AWS Cloud.
-      I used Python, Jupyter, IntelliJ, PySpark, AWS S3, AWS SSM, AWS ECR and AWS Lambda in a development context using
-      the Python boto3 API. I also created DAGs using Apache Airflow, Docker to create containers that had to run on
+      I used Python, Jupyter, IntelliJ, PySpark, AWS S3, AWS SSM, AWS ECR, AWS Step Functions, DynamoDB and AWS Lambda 
+      in a development context using 
+      the Python boto3 API. I also used Apache Airflow to create DAGs, Docker to create containers that had to run on
       Airflow and Kubernetes to check on running containers with a faulty status. CI/CD pipelines were set up using
-      Concourse and/or Jenkins, which I occasionally had to do.
+      Concourse and/or Jenkins, which I occasionally had to modify as well.
       I received formal trainings in PySpark and Terraform, which I also continued to use during my spare time.
       At the time of writing this, a formal training in Airflow is planned in the near future.
   - title: 'Data Scientist Consultant'
@@ -70,25 +71,38 @@ work_experience:
       language). These scripts had to be written in such a way that they could be easily reused for all clients.
 
 interesting_projects:
+  - title: 'Devoteam hackathon'
+    time: 'April 2022'
+    description: >-
+      Devoteam is organising a hackathon in GCP on April 30th. I will join this contest with two of my close friends 
+      and very skilled Computer Scientists (Anthony Hermans and Jeroen Verstraelen). Our aim is not necessarily to win 
+      (although that would be fun), but we think this is an excellent opportunity for us to test and further improve our 
+      flexibility, knowledge and presentation skills.
   - title: 'Exploring Google Cloud Platform'
     time: 'March 2022'
     description: >-
-      I've been focussing on AWS a lot. While AWS does shine in it's vast service offering and cost leadership, I
+      I've been focussing on AWS a lot. While AWS does shine in its vast service offering and cost leadership, I
       thought it might still be interesting to explore other options. From what I understood so far, GCP really excels
-      in AI and Machine Learning services. That's why I've decide to make myself comfortable with GCP as well. I
-      haven't been able to start exploring yet though because account verification is taking quite some time.
+      in AI and Machine Learning services. That's why I've decided to make myself comfortable with GCP as well. In order 
+      to quickly build and deploy apps on GCP whenever I would have an idea, I set up an easy CI/CD process that allows 
+      me to set up all necessary infrastructure to build and run my own Python packages with the click of a button. 
+      To achieve this, I've used Cloud Run, Cloud Source Repositories, Cloud Build, Cloud Artifact and Terraform. 
+      I've also taken a look at using Cloud Storage and BigQuery for serverless Data Engineering. So far, my findings 
+      are that AWS and GCP are quite similar, although both have their own unique 'quirks' and pricing mechanisms. 
+      AWS does seem to have an edge for me personally, due to its larger range of services. I do realise however, that 
+      this may just be my AWS level of experience talking. There is a lot to be explored on GCP.
   - title: 'VueJS research for rapid development of cloud applications'
     time: 'January 2022'
     description: >-
       Serverless cloud applications are key in the world of tomorrow. I set up a polling website using Terraform,
       AWS (DynamoDB, Amplify, S3, Lambda, Route53 and API Gateway) and VueJS. People can vote on the Belgian-Dutch
-      Big Brother television show. Yes this show is a guilty pleasure of mine! I also experimented with Google AdSense,
+      Big Brother television show. Yes, this show is a guilty pleasure of mine! I also experimented with Google AdSense,
       but sadly they do not place ads on websites whose content is rendered by JavaScript. I've also incorporated some
       data engineering in there. Basically every 10 minutes, the data is ingested into AWS S3 and processed using an
       AWS Lambda. This data can then be shown to the users of my website. What makes this really fun is that I have
       a fully available website that took about 3 days to create without the hassle of infrastructure management.
       It also costs 50 cents per month to keep it operational while having approximately 30.000 visitors
-      per week. Serverless FTW! You can visit the website
+      per week. Serverless FTW! Although the show has ended, you can still visit the website 
       <a target="_blank" href='https://bigbrother-nlbe-poll.ansacore.com'>here</a>.
   - title: 'Central heating monitor'
     time: 'December 2021'

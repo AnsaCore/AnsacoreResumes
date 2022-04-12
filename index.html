@@ -131,7 +131,7 @@
         
           <div class="mb-2"><span>JetBrains IDEs</span>
             <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
         
@@ -174,7 +174,7 @@
             </div>
           </div>
         
-          <div class="mb-2"><span>Concourse</span>
+          <div class="mb-2"><span>Google Cloud Platform</span>
             <div class="progress my-1">
               <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
@@ -228,7 +228,7 @@
           <div class="card-body">
             <div class="h5 mb-1">Data Engineer in the AWS Cloud <span class="text-muted h6">at KBC</span></div>
             <div class="text-muted text-small mb-2">2021 - Present</div>
-            <div>Migration and creation of data pipelines in the AWS Cloud. I used Python, Jupyter, IntelliJ, PySpark, AWS S3, AWS SSM, AWS ECR and AWS Lambda in a development context using the Python boto3 API. I also created DAGs using Apache Airflow, Docker to create containers that had to run on Airflow and Kubernetes to check on running containers with a faulty status. CI/CD pipelines were set up using Concourse and/or Jenkins, which I occasionally had to do. I received formal trainings in PySpark and Terraform, which I also continued to use during my spare time. At the time of writing this, a formal training in Airflow is planned in the near future.</div>
+            <div>Migration and creation of data pipelines in the AWS Cloud. I used Python, Jupyter, IntelliJ, PySpark, AWS S3, AWS SSM, AWS ECR, AWS Step Functions, DynamoDB and AWS Lambda  in a development context using  the Python boto3 API. I also used Apache Airflow to create DAGs, Docker to create containers that had to run on Airflow and Kubernetes to check on running containers with a faulty status. CI/CD pipelines were set up using Concourse and/or Jenkins, which I occasionally had to modify as well. I received formal trainings in PySpark and Terraform, which I also continued to use during my spare time. At the time of writing this, a formal training in Airflow is planned in the near future.</div>
           </div>
         </div>
       
@@ -250,9 +250,17 @@
       
         <div class="timeline-card timeline-card-projects card shadow-sm">
           <div class="card-body">
+            <div class="h5 mb-1">Devoteam hackathon</span></div>
+            <div class="text-muted text-small mb-2">April 2022</div>
+            <div>Devoteam is organising a hackathon in GCP on April 30th. I will join this contest with two of my close friends  and very skilled Computer Scientists (Anthony Hermans and Jeroen Verstraelen). Our aim is not necessarily to win  (although that would be fun), but we think this is an excellent opportunity for us to test and further improve our  flexibility, knowledge and presentation skills.</div>
+          </div>
+        </div>
+      
+        <div class="timeline-card timeline-card-projects card shadow-sm">
+          <div class="card-body">
             <div class="h5 mb-1">Exploring Google Cloud Platform</span></div>
             <div class="text-muted text-small mb-2">March 2022</div>
-            <div>I've been focussing on AWS a lot. While AWS does shine in it's vast service offering and cost leadership, I thought it might still be interesting to explore other options. From what I understood so far, GCP really excels in AI and Machine Learning services. That's why I've decide to make myself comfortable with GCP as well. I haven't been able to start exploring yet though because account verification is taking quite some time.</div>
+            <div>I've been focussing on AWS a lot. While AWS does shine in its vast service offering and cost leadership, I thought it might still be interesting to explore other options. From what I understood so far, GCP really excels in AI and Machine Learning services. That's why I've decided to make myself comfortable with GCP as well. In order  to quickly build and deploy apps on GCP whenever I would have an idea, I set up an easy CI/CD process that allows  me to set up all necessary infrastructure to build and run my own Python packages with the click of a button.  To achieve this, I've used Cloud Run, Cloud Source Repositories, Cloud Build, Cloud Artifact and Terraform.  I've also taken a look at using Cloud Storage and BigQuery for serverless Data Engineering. So far, my findings  are that AWS and GCP are quite similar, although both have their own unique 'quirks' and pricing mechanisms.  AWS does seem to have an edge for me personally, due to its larger range of services. I do realise however, that  this may just be my AWS level of experience talking. There is a lot to be explored on GCP.</div>
           </div>
         </div>
       
@@ -260,7 +268,7 @@
           <div class="card-body">
             <div class="h5 mb-1">VueJS research for rapid development of cloud applications</span></div>
             <div class="text-muted text-small mb-2">January 2022</div>
-            <div>Serverless cloud applications are key in the world of tomorrow. I set up a polling website using Terraform, AWS (DynamoDB, Amplify, S3, Lambda, Route53 and API Gateway) and VueJS. People can vote on the Belgian-Dutch Big Brother television show. Yes this show is a guilty pleasure of mine! I also experimented with Google AdSense, but sadly they do not place ads on websites whose content is rendered by JavaScript. I've also incorporated some data engineering in there. Basically every 10 minutes, the data is ingested into AWS S3 and processed using an AWS Lambda. This data can then be shown to the users of my website. What makes this really fun is that I have a fully available website that took about 3 days to create without the hassle of infrastructure management. It also costs 50 cents per month to keep it operational while having approximately 30.000 visitors per week. Serverless FTW! You can visit the website <a target="_blank" href='https://bigbrother-nlbe-poll.ansacore.com'>here</a>.</div>
+            <div>Serverless cloud applications are key in the world of tomorrow. I set up a polling website using Terraform, AWS (DynamoDB, Amplify, S3, Lambda, Route53 and API Gateway) and VueJS. People can vote on the Belgian-Dutch Big Brother television show. Yes, this show is a guilty pleasure of mine! I also experimented with Google AdSense, but sadly they do not place ads on websites whose content is rendered by JavaScript. I've also incorporated some data engineering in there. Basically every 10 minutes, the data is ingested into AWS S3 and processed using an AWS Lambda. This data can then be shown to the users of my website. What makes this really fun is that I have a fully available website that took about 3 days to create without the hassle of infrastructure management. It also costs 50 cents per month to keep it operational while having approximately 30.000 visitors per week. Serverless FTW! Although the show has ended, you can still visit the website  <a target="_blank" href='https://bigbrother-nlbe-poll.ansacore.com'>here</a>.</div>
           </div>
         </div>
       
