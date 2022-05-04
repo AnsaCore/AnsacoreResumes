@@ -71,13 +71,6 @@ work_experience:
       language). These scripts had to be written in such a way that they could be easily reused for all clients.
 
 interesting_projects:
-  - title: 'Devoteam hackathon'
-    time: 'April 2022'
-    description: >-
-      Devoteam is organising a hackathon in GCP on April 30th. I will join this contest with two of my close friends 
-      and very skilled Computer Scientists (Anthony Hermans and Jeroen Verstraelen). Our aim is not necessarily to win 
-      (although that would be fun), but we think this is an excellent opportunity for us to test and further improve our 
-      flexibility, knowledge and presentation skills.
   - title: 'Exploring Google Cloud Platform'
     time: 'March 2022'
     description: >-
@@ -89,8 +82,8 @@ interesting_projects:
       To achieve this, I've used Cloud Run, Cloud Source Repositories, Cloud Build, Cloud Artifact and Terraform. 
       I've also taken a look at using Cloud Storage and BigQuery for serverless Data Engineering. So far, my findings 
       are that AWS and GCP are quite similar, although both have their own unique 'quirks' and pricing mechanisms. 
-      AWS does seem to have an edge for me personally, due to its larger range of services. I do realise however, that 
-      this may just be my AWS level of experience talking. There is a lot to be explored on GCP.
+      AWS does seem to have an edge for me personally, due to its larger range of services. GCP still has some work to 
+      do though since I encountered quite a few bugs in the UI and in its Terraform provider.
   - title: 'VueJS research for rapid development of cloud applications'
     time: 'January 2022'
     description: >-
