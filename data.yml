@@ -72,7 +72,7 @@ work_experience:
 
 interesting_projects:
   - title: 'Glue vs EMR vs Kubernetes'
-    time: 'March 2022'
+    time: 'June 2022'
     description: >-
       As someone who enjoys PySpark, I thought it to be interesting to have a look at AWS Glue and compare it to
       possible alternatives such as EMR and Kubernetes. Glue was a true delight to work with since it immediately
