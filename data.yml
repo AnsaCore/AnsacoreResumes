@@ -71,6 +71,20 @@ work_experience:
       language). These scripts had to be written in such a way that they could be easily reused for all clients.
 
 interesting_projects:
+  - title: 'Glue vs EMR vs Kubernetes'
+    time: 'March 2022'
+    description: >-
+      As someone who enjoys PySpark, I thought it to be interesting to have a look at AWS Glue and compare it to
+      possible alternatives such as EMR and Kubernetes. Glue was a true delight to work with since it immediately
+      worked. Kubernetes is a tough beast to tame to say the least. Setup
+      and maintenance costs are definitely higher than Glue. I then studied the cost differences between EMR, Kubernetes
+      and Glue. I quickly found that the operational cost of Glue is higher than the operational costs of EMR and K8s
+      as soon as you exceed 500 hours of computations on a reference VM. Take into account the maintenance cost of K8s
+      and you would need hundred thousands of hours before Kubernetes would be cheaper to set up. Even though 
+      operational
+      costs of Glue seem higher, it is really lower when you take everything into account! Another important fact is
+      that companies would have more manpower available for value creation instead of wasting it all on creating and
+      maintaining a Kubernetes cluster for their Big Data Engineering projects.
   - title: 'Exploring Google Cloud Platform'
     time: 'March 2022'
     description: >-

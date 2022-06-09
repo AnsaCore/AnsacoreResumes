@@ -250,6 +250,14 @@
       
         <div class="timeline-card timeline-card-projects card shadow-sm">
           <div class="card-body">
+            <div class="h5 mb-1">Glue vs EMR vs Kubernetes</span></div>
+            <div class="text-muted text-small mb-2">March 2022</div>
+            <div>As someone who enjoys PySpark, I thought it to be interesting to have a look at AWS Glue and compare it to possible alternatives such as EMR and Kubernetes. Glue was a true delight to work with since it immediately worked. Kubernetes is a tough beast to tame to say the least. Setup and maintenance costs are definitely higher than Glue. I then studied the cost differences between EMR, Kubernetes and Glue. I quickly found that the operational cost of Glue is higher than the operational costs of EMR and K8s as soon as you exceed 500 hours of computations on a reference VM. Take into account the maintenance cost of K8s and you would need hundred thousands of hours before Kubernetes would be cheaper to set up. Even though  operational costs of Glue seem higher, it is really lower when you take everything into account! Another important fact is that companies would have more manpower available for value creation instead of wasting it all on creating and maintaining a Kubernetes cluster for their Big Data Engineering projects.</div>
+          </div>
+        </div>
+      
+        <div class="timeline-card timeline-card-projects card shadow-sm">
+          <div class="card-body">
             <div class="h5 mb-1">Exploring Google Cloud Platform</span></div>
             <div class="text-muted text-small mb-2">March 2022</div>
             <div>I've been focussing on AWS a lot. While AWS does shine in its vast service offering and cost leadership, I thought it might still be interesting to explore other options. From what I understood so far, GCP really excels in AI and Machine Learning services. That's why I've decided to make myself comfortable with GCP as well. In order  to quickly build and deploy apps on GCP whenever I would have an idea, I set up an easy CI/CD process that allows  me to set up all necessary infrastructure to build and run my own Python packages with the click of a button.  To achieve this, I've used Cloud Run, Cloud Source Repositories, Cloud Build, Cloud Artifact and Terraform.  I've also taken a look at using Cloud Storage and BigQuery for serverless Data Engineering. So far, my findings  are that AWS and GCP are quite similar, although both have their own unique 'quirks' and pricing mechanisms.  AWS does seem to have an edge for me personally, due to its larger range of services. GCP still has some work to  do though since I encountered quite a few bugs in the UI and in its Terraform provider.</div>
