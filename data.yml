@@ -13,13 +13,13 @@ primary_skillset:
   - name: 'AWS (e.g. S3, SSM, ECR, Lambda, SNS, DynamoDB, etc.)'
     proficiency: 85
   - name: 'TerraForm'
-    proficiency: 70
+    proficiency: 75
   - name: 'Docker'
     proficiency: 80
   - name: 'JetBrains IDEs'
-    proficiency: 85
+    proficiency: 90
   - name: 'PySpark'
-    proficiency: 80
+    proficiency: 90
 
 secondary_skillset:
   - name: 'Azure Cloud'
