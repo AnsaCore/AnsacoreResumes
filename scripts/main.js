@@ -9,10 +9,13 @@ function submit() {
     var name_el = document.getElementById('name');
     var email_el = document.getElementById('email');
     var message_el = document.getElementById('message');
+    var url = new URL(document.URL);
+    var person_name = url.hostname.slice(0, -13);
     var formData = {
         name: name_el.value,
         email: email_el.value,
-        message: message_el.value
+        message: message_el.value,
+        person_name: person_name
     }
 
     $("#contact_form").submit(function(e) {
