@@ -1,11 +1,8 @@
 current_title: 'Student Farmaceutische Wetenschappen'
 employee_name: 'Deema Nasr'
 introduction: >-
-  Hallo! Mijn naam is Deema. Ik ben iemand die recht op haar doel afgaat en ik ben daarbij niet bang om mij mouwen op te stropen!
+  Hallo! Mijn naam is Deema. Ik ben iemand die recht op haar doel afgaat en ik ben daarbij niet bang om mijn mouwen op te stropen!
 age: 02/08/1999
-address: Op aanvraag via LinkedIn
-phone_nr: Op aanvraag via LinkedIn
-email: Op aanvraag via LinkedIn
 nationality: Belg
 
 primary_skillset:
@@ -35,46 +32,45 @@ secondary_languages:
     proficiency: 60
 
 work_experience:
-  - title: 'Verkoopster'
-    employer: 'Quick'
-    time: '2017-2018'
-    description: >-
-      Bij dit vakantiewerk moest ik klantenbestellingen opnemen.
-  - title: 'Winkelmedewerkster'
-    employer: 'Zara'
-    time: 'Maart 2017 - April 2017'
-    description: >-
-      /
-  - title: 'Medewerkster voor bagage service'
-    employer: 'Brussels Airlines'
-    time: 'Augustus 2019'
-    description: >-
-      /
-  - title: 'Sales promotor'
-    employer: 'Rood Kruis Vlaanderen'
-    time: 'Maart 2020'
-    description: >-
-      /
-  - title: 'Stage'
-    employer: 'Apotheek Decaluwe'
-    time: 'Maart 2021'
-    description: >-
-      /
   - title: 'Stage'
     employer: 'Vésale Bioscience Laboratorium voor Moleculaire en Cellulaire Technologie'
     time: 'April 2022'
     description: >-
-      /
+
+  - title: 'Stage'
+    employer: 'Apotheek Decaluwe'
+    time: 'Maart 2021'
+    description: >-
+
+  - title: 'Sales promotor'
+    employer: 'Rood Kruis Vlaanderen'
+    time: 'Maart 2020'
+    description: >-
+
+  - title: 'Medewerkster voor bagage service'
+    employer: 'Brussels Airlines'
+    time: 'Augustus 2019'
+    description: >-
+
+  - title: 'Winkelmedewerkster'
+    employer: 'Zara'
+    time: 'Maart 2017 - April 2017'
+    description: >-
+
+  - title: 'Verkoopster'
+    employer: 'Quick'
+    time: '2017-2018'
+    description: >-
 
 education:
-  - degree: 'ASO'
-    institution: 'Koninklijk Atheneum Tienen'
-    time: '2012 - 2019'
-    description: >-
-      /
   - degree: 'Bachelor Farmaceutische Wetenschappen'
     institution: 'Katholieke Universiteit Leuven'
     time: '2019 - 2022'
     description: >-
-      /
-linkedin_link: 'https://www.linkedin.com/in/sam-mylle-62b468138/'
+
+  - degree: 'ASO'
+    institution: 'Koninklijk Atheneum Tienen'
+    time: '2012 - 2019'
+    description: >-
+
+      

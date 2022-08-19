@@ -43,23 +43,6 @@
     </noscript>
   </head>
   <body id="top">
-    <header class="d-print-none">
-      <div class="container text-center text-lg-left">
-        <div class="py-3 clearfix">
-          <div class="site-nav">
-            <nav role="navigation">
-              <ul class="nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link" href="{{ linkedin_link }}" title="LinkedIn">
-                    <i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span>
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header>
     <div class="page-content">
       <div class="container">
 <div class="cover shadow-lg bg-white">
@@ -88,24 +71,6 @@
           </div>
           <div class="col-sm-8">
             <div class="pb-1 text-secondary">{{ age }}</div>
-          </div>
-          <div class="col-sm-4">
-            <div class="pb-1">Adres</div>
-          </div>
-          <div class="col-sm-8">
-            <div class="pb-1 text-secondary">{{ address }}</div>
-          </div>
-          <div class="col-sm-4">
-            <div class="pb-1">GSM nummer</div>
-          </div>
-          <div class="col-sm-8">
-            <div class="pb-1 text-secondary">{{ phone_nr }}</div>
-          </div>
-          <div class="col-sm-4">
-            <div class="pb-1">Email</div>
-          </div>
-          <div class="col-sm-8">
-            <div class="pb-1 text-secondary">{{ email }}</div>
           </div>
           <div class="col-sm-4">
             <div class="pb-1">Nationaliteit</div>
@@ -217,16 +182,6 @@
         </form>
         <button class="btn btn-primary mt-2" onclick="submit()">Verstuur</button>
       </div>
-      <div class="col d-none d-print-block">
-        <div class="mt-2">
-          <div>
-            <div class="mb-2">
-              <div class="text-dark"><i class="fab fa-linkedin mr-1"></i><span>{{ linkedin_link }}</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </div></div>
@@ -239,14 +194,6 @@
       <div class="container">
         <div class="my-3">
           <div class="h4">{{ employee_name }}</div>
-          <div class="footer-nav">
-            <nav role="navigation">
-              <ul class="nav justify-content-center">
-                <li class="nav-item"><a class="nav-link" href="{{ linkedin_link }}" title="LinkedIn"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a>
-                </li>
-              </ul>
-            </nav>
-          </div>
         </div>
         <div class="text-small">
           <div class="mb-1">&copy; Right Resume. All rights reserved.</div>
