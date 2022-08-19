@@ -1,55 +1,80 @@
-current_title: 'Full time knapperd'
+current_title: 'Student Farmaceutische Wetenschappen'
 employee_name: 'Deema Nasr'
 introduction: >-
-  Hi! I'm Dimmie Dim Dim and I have an incredibly sexy friend that helped me set up this online CV!
-age: 23
-work_areas: 'Belgium: Antwerp, Brussels, Leuven'
+  /
+age: 02/08/1999
+address: Zijdelingsestraat 97 3300 Tienen
+phone_nr: +32 484 99 23 15
+email: deema.nasr2@gmail.com
+nationality: Belg
 
 primary_skillset:
-  - name: 'Wearing red dresses'
-    proficiency: 100
-  - name: 'Walking in heels'
-    proficiency: 95
-  - name: 'Walking in heels on cobblestone'
-    proficiency: 75
+  - name: 'Microsoft Word'
+    proficiency: 90
+  - name: 'Microsoft Excel'
+    proficiency: 90
 
 secondary_skillset:
-  - name: 'Having sexy friends named Sam'
-    proficiency: 100
-  - name: 'Doing pharmacy stuff'
+  - name: 'Microsoft Powerpoint'
+    proficiency: 90
+  - name: 'SSPS Satistical Software'
     proficiency: 80
-  - name: 'Eating entire hamburgers'
-    proficiency: 40
 
 primary_languages:
-  - name: 'Dutch'
+  - name: 'Nederlands'
     proficiency: 100
-  - name: 'English'
-    proficiency: 95
+  - name: 'Engels'
+    proficiency: 80
+  - name: 'Arabisch'
+    proficiency: 100
 
 secondary_languages:
-  - name: 'German'
-    proficiency: 60
-  - name: 'French'
+  - name: 'Duits'
+    proficiency: 50
+  - name: 'Frans'
     proficiency: 60
 
 work_experience:
-  - title: 'Daedalus'
-    employer: 'Burger King'
-    time: '2021 - Present'
+  - title: 'Verkoopster'
+    employer: 'Quick'
+    time: '2017-2018'
     description: >-
-      Daedalus interea, Creten longumque perosus. Exilium, tactisque natalis amore.
-
-interesting_projects:
-  - title: 'Wawaweea'
-    time: 'June 2022'
+      /
+  - title: 'Winkelmedewerksster'
+    employer: 'Zara'
+    time: 'Maart 2017 - April 2017'
     description: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      /
+  - title: 'Medewerkster voor bagage service'
+    employer: 'Brussels Airlines'
+    time: 'Augustus 2019'
+    description: >-
+      /
+  - title: 'Sales promotor'
+    employer: 'Rood Kruis Vlaanderen'
+    time: 'Maart 2020'
+    description: >-
+      /
+  - title: 'Stage'
+    employer: 'Apotheek Decaluwe'
+    time: 'Maart 2021'
+    description: >-
+      /
+  - title: 'Stage'
+    employer: 'Vésale Bioscience Laboratorium voor Moleculaire en Cellulaire Technologie'
+    time: 'April 2022'
+    description: >-
+      /
 
 education:
-  - degree: 'Lorem ipsum'
-    institution: 'Catholic University of Leuven'
-    time: '2019 - 2020'
+  - degree: 'ASO'
+    institution: 'Koninklijk Atheneum Tienen'
+    time: '2012 - 2019'
     description: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      /
+  - degree: 'Bachelor Farmaceutische Wetenschappen'
+    institution: 'Katholieke Universiteit Leuven'
+    time: '2019 - 2022'
+    description: >-
+      /
 linkedin_link: 'https://www.linkedin.com/in/sam-mylle-62b468138/'

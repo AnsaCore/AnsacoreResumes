@@ -38,9 +38,9 @@ function submit() {
                         document.getElementById('name').value = '';
                         document.getElementById('email').value = '';
                         document.getElementById('message').value = '';
-                        showSnackBar('Thank you for your message!');
+                        showSnackBar('Bedankt voor je bericht!');
                     } else {
-                        showSnackBar('Something went wrong, please try again later.');
+                        showSnackBar('Er is iets misgelopen, probeer het later nog eens.');
                     }
                 }
             },
@@ -48,7 +48,7 @@ function submit() {
                 error: function(error) {
                     console.log(error);
                     console.log('Reported bad request')
-                    showSnackBar('Something went wrong, please try again later.');
+                    showSnackBar('Er is iets misgelopen, probeer het later nog eens.');
                 }
             }
         )

@@ -9,12 +9,12 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Cloud & Data Engineer&nbsp;">
     <meta property="og:description" content="Passionate about data, cloud and cutting-edge technology!">
-    <meta property="og:image" content="images/sam.jpg">
+    <meta property="og:image" content="images/deema.jpg">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Cloud & Data Engineer&nbsp;">
     <meta name="twitter:description" content="Passionate about data, cloud and cutting-edge technology!">
-    <meta name="twitter:image" content="images/sam.jpg">
+    <meta name="twitter:image" content="images/deema.jpg">
 
     <title>{{ employee_name }}</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
@@ -66,34 +66,52 @@
   <div class="cover-bg p-3 p-lg-4 text-white">
     <div class="row">
       <div class="col-lg-4 col-md-5">
-        <div class="avatar hover-effect bg-white shadow-sm p-1"><img src="images/sam.jpg" width="200" height="200"/></div>
+        <div class="avatar hover-effect bg-white shadow-sm p-1"><img src="images/deema.jpg" width="200" height="200"/></div>
       </div>
       <div class="col-lg-8 col-md-7 text-center text-md-start">
         <h2 class="h1 mt-2" data-aos="fade-left" data-aos-delay="0">{{ employee_name }}</h2>
         <p data-aos="fade-left" data-aos-delay="100">{{ current_title }}</p>
-        <div class="d-print-none" data-aos="fade-left" data-aos-delay="200"><!--a class="btn btn-light text-dark shadow-sm mt-1 me-1" href="right-resume.pdf" target="_blank">TODO Download CV</a--><a class="btn btn-success shadow-sm mt-1" href="#contact">Hire Me</a></div>
+        <div class="d-print-none" data-aos="fade-left" data-aos-delay="200"><!--a class="btn btn-light text-dark shadow-sm mt-1 me-1" href="right-resume.pdf" target="_blank">TODO Download CV</a--><a class="btn btn-success shadow-sm mt-1" href="#contact">Werf mij aan!</a></div>
       </div>
     </div>
   </div>
   <div class="about-section pt-4 px-3 px-lg-4 mt-1">
     <div class="row">
       <div class="col-md-6">
-        <h2 class="h3 mb-3">About Me</h2>
+        <h2 class="h3 mb-3">Over mij</h2>
         <p>{{ introduction }}</p>
       </div>
       <div class="col-md-5 offset-md-1">
         <div class="row mt-2">
           <div class="col-sm-4">
-            <div class="pb-1">Age</div>
+            <div class="pb-1">Geboortedatum</div>
           </div>
           <div class="col-sm-8">
             <div class="pb-1 text-secondary">{{ age }}</div>
           </div>
           <div class="col-sm-4">
-            <div class="pb-1">Active area(s)</div>
+            <div class="pb-1">Adres</div>
           </div>
           <div class="col-sm-8">
-            <div class="pb-1 text-secondary">{{ work_areas }}</div>
+            <div class="pb-1 text-secondary">{{ address }}</div>
+          </div>
+          <div class="col-sm-4">
+            <div class="pb-1">GSM nummer</div>
+          </div>
+          <div class="col-sm-8">
+            <div class="pb-1 text-secondary">{{ phone_nr }}</div>
+          </div>
+          <div class="col-sm-4">
+            <div class="pb-1">Email</div>
+          </div>
+          <div class="col-sm-8">
+            <div class="pb-1 text-secondary">{{ email }}</div>
+          </div>
+          <div class="col-sm-4">
+            <div class="pb-1">Nationaliteit</div>
+          </div>
+          <div class="col-sm-8">
+            <div class="pb-1 text-secondary">{{ nationality }}</div>
           </div>
         </div>
       </div>
@@ -101,7 +119,7 @@
   </div>
   <hr class="d-print-none"/>
   <div class="skills-section px-3 px-lg-4">
-    <h2 class="h3 mb-3">Professional Skills</h2>
+    <h2 class="h3 mb-3">Professionele Skills</h2>
     <div class="row">
       <div class="col-md-6">
         {% for skill in primary_skillset %}
@@ -125,7 +143,7 @@
   </div>
   <hr class="d-print-none"/>
   <div class="skills-section px-3 px-lg-4">
-    <h2 class="h3 mb-3">Languages</h2>
+    <h2 class="h3 mb-3">Talenkennis</h2>
     <div class="row">
       <div class="col-md-6">
         {% for language in primary_languages %}
@@ -149,12 +167,12 @@
   </div>
   <hr class="d-print-none"/>
   <div class="work-experience-section px-3 px-lg-4">
-    <h2 class="h3 mb-4">Work Experience</h2>
+    <h2 class="h3 mb-4">Werkervaring</h2>
     <div class="timeline">
       {% for work_exp in work_experience %}
         <div class="timeline-card timeline-card-primary card shadow-sm">
           <div class="card-body">
-            <div class="h5 mb-1">{{ work_exp['title'] }} <span class="text-muted h6">at {{ work_exp['employer'] }}</span></div>
+            <div class="h5 mb-1">{{ work_exp['title'] }} <span class="text-muted h6">bij {{ work_exp['employer'] }}</span></div>
             <div class="text-muted text-small mb-2">{{ work_exp['time'] }}</div>
             <div>{{ work_exp['description'] }}</div>
           </div>
@@ -163,29 +181,13 @@
     </div>
   </div>
   <hr class="d-print-none"/>
-  <div class="page-break"></div>
-  <div class="work-experience-section px-3 px-lg-4">
-    <h2 class="h3 mb-4">Interesting Projects</h2>
-    <div class="timeline">
-      {% for project_exp in interesting_projects %}
-        <div class="timeline-card timeline-card-projects card shadow-sm">
-          <div class="card-body">
-            <div class="h5 mb-1">{{ project_exp['title'] }}</span></div>
-            <div class="text-muted text-small mb-2">{{ project_exp['time'] }}</div>
-            <div>{{ project_exp['description'] }}</div>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-  <hr class="d-print-none"/>
   <div class="education-section px-3 px-lg-4 pb-4">
-    <h2 class="h3 mb-4">Education</h2>
+    <h2 class="h3 mb-4">Opleiding</h2>
     <div class="timeline">
       {% for education_exp in education %}
         <div class="timeline-card timeline-card-success card shadow-sm">
           <div class="card-body">
-            <div class="h5 mb-1">{{ education_exp['degree'] }} <span class="text-muted h6">at {{ education_exp['institution'] }}</span></div>
+            <div class="h5 mb-1">{{ education_exp['degree'] }} <span class="text-muted h6">bij {{ education_exp['institution'] }}</span></div>
             <div class="text-muted text-small mb-2">{{ education_exp['time'] }}</div>
             <div>{{ education_exp['description'] }}</div>
           </div>
@@ -202,18 +204,18 @@
           <div class="my-2">
             <div class="row">
               <div class="col-6">
-                <input class="form-control" type="text" id="name" name="name" placeholder="Your Name" required>
+                <input class="form-control" type="text" id="name" name="name" placeholder="Uw naam" required>
               </div>
               <div class="col-6">
-                <input class="form-control" type="email" id="email" name="email" placeholder="Your E-mail" required>
+                <input class="form-control" type="email" id="email" name="email" placeholder="Uw email" required>
               </div>
             </div>
             <div class="form-group my-2">
-              <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4"  placeholder="Your Message" required></textarea>
+              <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4"  placeholder="Uw bericht" required></textarea>
             </div>
           </div>
         </form>
-        <button class="btn btn-primary mt-2" onclick="submit()">Send</button>
+        <button class="btn btn-primary mt-2" onclick="submit()">Verstuur</button>
       </div>
       <div class="col d-none d-print-block">
         <div class="mt-2">
