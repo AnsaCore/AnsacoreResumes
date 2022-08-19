@@ -71,7 +71,6 @@
       <div class="col-lg-8 col-md-7 text-center text-md-start">
         <h2 class="h1 mt-2" data-aos="fade-left" data-aos-delay="0">{{ employee_name }}</h2>
         <p data-aos="fade-left" data-aos-delay="100">{{ current_title }}</p>
-        <div class="d-print-none" data-aos="fade-left" data-aos-delay="200"><!--a class="btn btn-light text-dark shadow-sm mt-1 me-1" href="right-resume.pdf" target="_blank">TODO Download CV</a--><a class="btn btn-success shadow-sm mt-1" href="#contact">Werf mij aan!</a></div>
       </div>
     </div>
   </div>
@@ -193,40 +192,6 @@
           </div>
         </div>
       {% endfor %}
-    </div>
-  </div>
-  <hr class="d-print-none"/>
-  <div class="contant-section px-3 px-lg-4 pb-4" id="contact">
-    <h2 class="h3 text mb-3">Contact</h2>
-    <div class="row">
-      <div class="col-md-7 d-print-none">
-        <form id="contact_form">
-          <div class="my-2">
-            <div class="row">
-              <div class="col-6">
-                <input class="form-control" type="text" id="name" name="name" placeholder="Uw naam" required>
-              </div>
-              <div class="col-6">
-                <input class="form-control" type="email" id="email" name="email" placeholder="Uw email" required>
-              </div>
-            </div>
-            <div class="form-group my-2">
-              <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4"  placeholder="Uw bericht" required></textarea>
-            </div>
-          </div>
-        </form>
-        <button class="btn btn-primary mt-2" onclick="submit()">Verstuur</button>
-      </div>
-      <div class="col d-none d-print-block">
-        <div class="mt-2">
-          <div>
-            <div class="mb-2">
-              <div class="text-dark"><i class="fab fa-linkedin mr-1"></i><span>{{ linkedin_link }}</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </div></div>
