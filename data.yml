@@ -23,7 +23,7 @@ primary_skillset:
     proficiency: 90
   - name: 'Visual Studio (Code)'
     proficiency: 85
-  - name: 'Azure (e.g. Data Factory, Data Lake Storage Gen 2, SQL, Analysis Services, Cosmos DB, etc.)'
+  - name: 'Azure (e.g. Data Factory, ADLS, SQL, Analysis Services, Cosmos DB)'
     proficiency: 85
 
 secondary_skillset:
