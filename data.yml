@@ -1,39 +1,48 @@
-current_title: 'Data Engineer in the AWS Cloud'
-employee_name: 'Sam Mylle'
+current_title: 'Data Engineer / Architect in the Azure Cloud'
+employee_name: 'Anthony Hermans'
 introduction: >-
-  Hi! I'm Sam Mylle. I am a Computer Scientist with a big passion for Cloud and Data Engineering. For both these
-  fields, I use Python because of its great power and ease-of-use. Fun fact: I deployed this website because I was
-  interested in getting to know more about Terraform and AWS' Amplify, Lambda, Route53 and API Gateway.
+  Hi! I'm Anthony Hermans. I am a data engineer with a background in Computer Science and Artificial Intelligence.
+  For me, the combination of Cloud and Python is the place where the magic happens.
+  I'm also really passionate about constructing performant data models and
+  reducing the time-to-insight for end users via visualisation tools like Power BI.
 age: 26
 work_areas: 'Belgium: Antwerp, Brussels, Leuven'
 
 primary_skillset:
   - name: 'Python'
     proficiency: 95
-  - name: 'AWS (e.g. S3, SSM, ECR, Lambda, SNS, DynamoDB, etc.)'
+  - name: 'Databricks'
+    proficiency: 95
+  - name: 'SQL Server Integration Services'
     proficiency: 85
-  - name: 'TerraForm'
-    proficiency: 75
-  - name: 'Docker'
-    proficiency: 80
-  - name: 'JetBrains IDEs'
-    proficiency: 90
+  - name: 'SQL Server Analysis Services'
+    proficiency: 85
   - name: 'PySpark'
+    proficiency: 95
+  - name: 'Tabular Editor'
     proficiency: 90
+  - name: 'Visual Studio (Code)'
+    proficiency: 85
+  - name: 'Azure (e.g. Data Factory, Data Lake Storage Gen 2, SQL, Analysis Services, Cosmos DB, etc.)'
+    proficiency: 85
 
 secondary_skillset:
-  - name: 'Azure Cloud'
-    proficiency: 60
-  - name: 'Apache Airflow'
-    proficiency: 70
-  - name: 'Raspberry pi'
-    proficiency: 60
-  - name: 'Kubernetes'
+  - name: 'AWS'
     proficiency: 40
-  - name: 'Jenkins'
-    proficiency: 45
-  - name: 'Google Cloud Platform'
+  - name: 'HTML & CSS'
+    proficiency: 75
+  - name: 'GitHub - GitLab'
+    proficiency: 80
+  - name: 'TerraForm'
     proficiency: 60
+  - name: 'C++'
+    proficiency: 65
+  - name: 'Azure DevOps'
+    proficiency: 75
+  - name: 'Google Cloud Platform'
+    proficiency: 25
+  - name: 'Power BI'
+    proficiency: 80
 
 primary_languages:
   - name: 'Dutch'
@@ -42,99 +51,90 @@ primary_languages:
     proficiency: 95
 
 secondary_languages:
-  - name: 'German'
-    proficiency: 60
   - name: 'French'
-    proficiency: 60
+    proficiency: 75
+  - name: 'German'
+    proficiency: 50
 
 work_experience:
-  - title: 'Data Engineer in the AWS Cloud'
-    employer: 'KBC'
-    time: '2021 - Present'
+  - title: 'Data Engineer / Architect in the Azure Cloud'
+    employer: 'BASF Antwerp'
+    time: '06/2022 - Present'
     description: >-
-      Migration and creation of data pipelines in the AWS Cloud.
-      I used Python, Jupyter, IntelliJ, PySpark, AWS S3, AWS SSM, AWS ECR, AWS Step Functions, DynamoDB and AWS Lambda 
-      in a development context using 
-      the Python boto3 API. I also used Apache Airflow to create DAGs, Docker to create containers that had to run on
-      Airflow and Kubernetes to check on running containers with a faulty status. CI/CD pipelines were set up using
-      Concourse and/or Jenkins, which I occasionally had to modify as well.
-      I received formal trainings in PySpark and Terraform, which I also continued to use during my spare time.
-      At the time of writing this, a formal training in Airflow is planned in the near future.
-  - title: 'Data Scientist Consultant'
-    employer: 'OMP'
-    time: '2020 - 2021'
-    description: >-
-      OMP is a company selling supply chain planning software. In short, this means that their software takes care of
-      forecasting supply and demand and ensuring that the supply and demand can be met.
-      OMP's software works in three layers: a generic layer, a layer per industry (e.g. chemicals, packaging, etc.) and
-      a client-specific layer. I worked in the generic layer, where I wrote OPAL scripts (their own programming
-      language). These scripts had to be written in such a way that they could be easily reused for all clients.
+      BASF Antwerp has a new department regarding data analytics.
+      This team consists of three subteams namely business intelligence, advanced analytics and operational intelligence.
+      As a data engineer, I am responsible for setting up several ETL flows for each team and installation of best practises inside the current data platform (Azure and Databricks).
+      Besides the data engineering, I also did some architectural work (translate business requirements to data models, setting up visualisations and measures, ...).
+      Furthermore, my job included project management tasks that required me to facilitate daily status updates and follow up on data engineering work from our contractors.
+      The technologies I came in contact during my time at BASF are Azure (Data Factory, SQL Databases and pools, Synapse, DevOps), Databricks, Power BI, Superset, Rancher, Python (FastAPI, Flyway, pydantic, ...).
 
-interesting_projects:
-  - title: 'Glue vs EMR vs Kubernetes'
-    time: 'June 2022'
+  - title: 'Business Intelligence Consultant / Data Engineer'
+    employer: 'Cegeka - Data Solutions'
+    time: '09/2020 - 05/2022'
     description: >-
-      As someone who enjoys PySpark, I thought it to be interesting to have a look at AWS Glue and compare it to
-      possible alternatives such as EMR and Kubernetes. Glue was a true delight to work with since it immediately
-      worked. Kubernetes is a tough beast to tame to say the least. Setup
-      and maintenance costs are definitely higher than Glue. I then studied the cost differences between EMR, Kubernetes
-      and Glue. I quickly found that the operational cost of Glue is higher than the operational costs of EMR and K8s
-      as soon as you exceed 500 hours of computations on a reference VM. Take into account the maintenance cost of K8s
-      and you would need hundred thousands of hours before Kubernetes would be cheaper to set up. Even though 
-      operational
-      costs of Glue seem higher, it is really lower when you take everything into account! Another important fact is
-      that companies would have more manpower available for value creation instead of wasting it all on creating and
-      maintaining a Kubernetes cluster for their Big Data Engineering projects.
-  - title: 'Exploring Google Cloud Platform'
-    time: 'March 2022'
+      During my first six months at Cegeka, the focus was in-house development of the internal business insights solution called CBI.
+      CBI uses ERP data from Microsoft Dynamics 365 / AX2012. This ERP data is migrated via SQL Server Integration Services and
+      loaded into different SQL Server Analysis Services  cubes (tabular/multidimensional).
+      Each cube represents a specific data mart (e.g. Finance, Quality, Order To Cash, etc.).
+      The final step is visualisation on these Tabular cubes through Power BI.
+      Besides the on-premises variant, there is also a cloud version of CBI.
+      The main difference here is the orchestration of the daily load processes. T
+      he on-premise solution made use of a SQL Agent Job whereas the cloud version uses Azure Datafactory.
+      <br>
+      <br>
+      After six months, I was assigned the KRC Genk project which was an entire cloud project.
+      The main goal of this project was to integrate data from several external partners into one data platform
+      which contained the single version of the truth regarding merchandising, ticketing, consumption data etc.
+      The technologies on this project were Azure Datafactory and Automation Runbooks (orchestration of the ELT processes),
+      Azure Databricks (PySpark related code for data manipulation, cleanup etc.) and Azure SQL Server / Azure Data Lake Storage (for data storage).
+      This project was very different in comparison to the CBI project.
+      It was mostly programming in Python to prepare the data for end-users (through a bronze, silver and gold data vault layer)
+      whereas CBI uses a more traditional data warehousing approach (staging, history, facts and views).
+      <br>
+      <br>
+      Finally during my career at Cegeka, I also studied and received several Azure certificates (Azure Data Fundamentals, Azure Data Engineer Associate & Azure Data Analyst Associate).
+      I also expanded my knowledge of Python, the cloud in general and Power BI through several DataCamp & U2U courses.
+
+  - title: 'Thesis student'
+    employer: 'Teal Partners'
+    time: '09/2018 - 08/2019'
     description: >-
-      I've been focussing on AWS a lot. While AWS does shine in its vast service offering and cost leadership, I
-      thought it might still be interesting to explore other options. From what I understood so far, GCP really excels
-      in AI and Machine Learning services. That's why I've decided to make myself comfortable with GCP as well. In order 
-      to quickly build and deploy apps on GCP whenever I would have an idea, I set up an easy CI/CD process that allows 
-      me to set up all necessary infrastructure to build and run my own Python packages with the click of a button. 
-      To achieve this, I've used Cloud Run, Cloud Source Repositories, Cloud Build, Cloud Artifact and Terraform. 
-      I've also taken a look at using Cloud Storage and BigQuery for serverless Data Engineering. So far, my findings 
-      are that AWS and GCP are quite similar, although both have their own unique 'quirks' and pricing mechanisms. 
-      AWS does seem to have an edge for me personally, due to its larger range of services. GCP still has some work to 
-      do though since I encountered quite a few bugs in the UI and in its Terraform provider.
-  - title: 'VueJS research for rapid development of cloud applications'
-    time: 'January 2022'
+      This thesis was in close cooperation with Teal Partners which is an IT company that develops wage budgeting applications.
+      The main goal of this research was to find answers regarding:
+      <br>
+      First pillar: Recognition of company sectors
+      <ul>
+        <li>Is it possible to recognize company sectors through machine learning methods based on employee-level budget simulation data?</li>
+      </ul>
+      Second pillar: Forecasting of wage costs
+      <ul>
+        <li>How accurately can budgets be predicted using simulation data?}</li>
+        <li>Is it possible to generate wage forecasts of a company based on similar companies?</li>
+        <li>How accurate is the forecasting model for more complex companies such as a bank, chemical company, ...?</li>
+      </ul>
+      The main technologies were Python (scikit-learn, numpy, pandas, pickle and matplotlib libraries), LaTeX, SQL and C#.
+
+  - title: 'Job student'
+    employer: 'Sitac'
+    time: '07/2018 - 08/2018'
     description: >-
-      Serverless cloud applications are key in the world of tomorrow. I set up a polling website using Terraform,
-      AWS (DynamoDB, Amplify, S3, Lambda, Route53 and API Gateway) and VueJS. People can vote on the Belgian-Dutch
-      Big Brother television show. Yes, this show is a guilty pleasure of mine! I also experimented with Google AdSense,
-      but sadly they do not place ads on websites whose content is rendered by JavaScript. I've also incorporated some
-      data engineering in there. Basically every 10 minutes, the data is ingested into AWS S3 and processed using an
-      AWS Lambda. This data can then be shown to the users of my website. What makes this really fun is that I have
-      a fully available website that took about 3 days to create without the hassle of infrastructure management.
-      It also costs 50 cents per month to keep it operational while having approximately 30.000 visitors
-      per week. Serverless FTW! Although the show has ended, you can still visit the website 
-      <a target="_blank" href='https://bigbrother-nlbe-poll.ansacore.com'>here</a>.
-  - title: 'Central heating monitor'
-    time: 'December 2021'
+      During this summer internship, I was responsible for the development of a web application based on an existing proof of concept.
+      The intership contained the following tasks:
+      <ul>
+        <li>Review architecture of the proof of concept</li>
+        <li>Development of a back-end with a MySQL database</li>
+        <li>Front-end development (compatibility with tablets)</li>
+        <li>Implement functionality for user & office management</li>
+        <li>Security setup</li>
+      </ul>
+      The main technologies were Python (Flask library), MySQL, Bootstrap (HTML & CSS).
+
+  - title: 'Public Relations'
+    employer: 'EESTEC LC Antwerp'
+    time: '2016 - 2017'
     description: >-
-      We had some trouble with the heating system in our house. My father is quite the handyman, but diagnosing the
-      problem without historical temperatures proved to be quite difficult.
-      I then used a Raspberry Pi with some DS18B20 heat sensors to capture the data in real time. This gave my father
-      the monitoring abilities he needed to find the problem. The technologies I used were: AWS (SSM, DynamoDB
-      Lambda and SNS), PyCharm, Docker, Raspberry Pi OS and Python.
-  - title: 'Setting up this website'
-    time: 'November 2021'
-    description: >-
-      CVs get outdated, websites do not. That is the reason I created this website. Whether I gave you my CV yesterday
-      or last year, you will have the most up-to-date version anyway. Fun fact about this website: I created it in such
-      a way so that my friends would be able to use it as well. The technologies I used were: AWS (Amplify, SSM,
-      Lambda, SNS, API Gateway, Route53, S3 and IAM Management), PyCharm, Terraform, Docker and Python.
-  - title: 'Teaching'
-    time: 'November 2021'
-    description: >-
-      Due to Covid-19, some students are falling behind in school. A popular course from which troubles arise is math,
-      which is why I started teaching it using <a href='https://bijleshuis.be' target='#blank'>BijlesHuis</a>. The
-      student provides me with the course material and I prepare some exercises
-      to solve together or answer any theoretical questions they may have. If they already did some tests, I also
-      provide them with the answers and a detailed explanation on how to get the answer. Theoretically, I could also
-      provide lessons in Python, but this is far less popular.
+      During my time as PR officer at EESTEC LC Antwerp, I was responsible for connecting students with companies
+      by organising talks at the Middelheim campus in Antwerp.
 
 education:
   - degree: 'Master Sciences: Management'
@@ -152,16 +152,15 @@ education:
     time: '2017 - 2019'
     description: >-
       I chose for some extra courses related to AI. These handled some principles and algorithms in AI such as
-      Multi-Agent-Systems, Genetic Algorithms and Neural Networks. The thesis was about multi-user recommender systems.
-      For example, Netflix can already recommend movies based on your personal preferences, but the situation changes
-      when you're in a group. I implemented two algorithms for this and tested them in a framework I built.
+      Multi-Agent-Systems, Computer Vision and Machine Learning. The thesis was about machine learning for wage costs forecasts and budgeting.
+      More information on this thesis can be found in the work experience section (Thesis student segment).
   - degree: 'Bachelor in Computer Science'
     institution: 'University of Antwerp'
-    time: '2014 - 2017'
+    time: '2014 - 2018'
     description: >-
       Learning how to program in Python and C++. Autonomous learning of technologies based on assignment's requirements.
       The thesis assignment was to extend the STRIDE simulator of the university. This piece of software simulates
       the spreading of a disease base on various parameters. The extensions we had to write were: generating synthetic
       populations, visualising the spread of a disease, implementing distributed processing and creating checkpoints
       during the simulation.
-linkedin_link: 'https://www.linkedin.com/in/sam-mylle-62b468138/'
+linkedin_link: 'https://www.linkedin.com/in/hermansanthony/'
