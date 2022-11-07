@@ -78,8 +78,8 @@ work_experience:
       Each cube represents a specific data mart (e.g. Finance, Quality, Order To Cash, etc.).
       The final step is visualisation on these Tabular cubes through Power BI.
       Besides the on-premises variant, there is also a cloud version of CBI.
-      The main difference here is the orchestration of the daily load processes. T
-      he on-premise solution made use of a SQL Agent Job whereas the cloud version uses Azure Datafactory.
+      The main difference here is the orchestration of the daily load processes.
+      The on-premise solution made use of a SQL Agent Job whereas the cloud version uses Azure Datafactory.
       <br>
       <br>
       After six months, I was assigned the KRC Genk project which was an entire cloud project.
