@@ -160,7 +160,7 @@ education:
     description: >-
       Learning how to program in Python and C++. Autonomous learning of technologies based on assignment's requirements.
       The thesis assignment was to extend the STRIDE simulator of the university. This piece of software simulates
-      the spreading of a disease base on various parameters. The extensions we had to write were: generating synthetic
+      the spreading of a disease based on various parameters. The extensions we had to write were: generating synthetic
       populations, visualising the spread of a disease, implementing distributed processing and creating checkpoints
       during the simulation.
 linkedin_link: 'https://www.linkedin.com/in/hermansanthony/'
