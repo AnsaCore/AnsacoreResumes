@@ -11,15 +11,15 @@ primary_skillset:
   - name: 'Python'
     proficiency: 95
   - name: 'AWS (e.g. S3, SSM, ECR, Lambda, SNS, DynamoDB, etc.)'
-    proficiency: 85
+    proficiency: 90
   - name: 'TerraForm'
-    proficiency: 75
+    proficiency: 85
   - name: 'Docker'
     proficiency: 80
   - name: 'JetBrains IDEs'
-    proficiency: 90
+    proficiency: 95
   - name: 'PySpark'
-    proficiency: 90
+    proficiency: 92
 
 secondary_skillset:
   - name: 'Azure Cloud'
@@ -58,8 +58,18 @@ work_experience:
       the Python boto3 API. I also used Apache Airflow to create DAGs, Docker to create containers that had to run on
       Airflow and Kubernetes to check on running containers with a faulty status. CI/CD pipelines were set up using
       Concourse and/or Jenkins, which I occasionally had to modify as well.
-      I received formal trainings in PySpark and Terraform, which I also continued to use during my spare time.
-      At the time of writing this, a formal training in Airflow is planned in the near future.
+      I received formal trainings in PySpark, Airflow and Terraform, which I also continued to use during my spare time.
+      <br>
+      <br>
+      Right now I'm working on a self-created project that allows non-technical colleagues to validate and run pipelines in production and 
+      acceptance before the pipeline has been deployed to those pillars. It saves a lot of precious time for both developers and analysts and 
+      has significantly reduced the probability of deploying faulty code. In short: 
+      the speed and quality of the team as a whole has increased significantly, which is something I'm very very proud of.
+      I have another idea to make life better at KBC, but I'm still figuring out the details before proposing it to the team as a new project.
+      <br>
+      <br>
+      After one year, I've learned a lot and I am now considered to be a senior PySpark developer.
+      The short time horizon in which I achieved this really boosted my confidence in my ability to learn.
   - title: 'Data Scientist Consultant'
     employer: 'OMP'
     time: '2020 - 2021'
@@ -71,6 +81,13 @@ work_experience:
       language). These scripts had to be written in such a way that they could be easily reused for all clients.
 
 interesting_projects:
+  - title: 'More in-depth knowledge of AWS'
+    time: 'November 2022'
+    description: >-
+      I've started up another project not because it's a groundbreaking application, but because of the learning opportunities. 
+      It's a quite simple planning tool for teams, but it requires more in-depth knowledge AWS services such as DynamoDB (secondary indices), 
+      DynamoDB streams, the tight co-operation between API Gateway and Cognito and using the OAuth2 API with Cognito. 
+      This project also uses Vue3's naive-ui for web UI components. The possibilities with naive-ui are amazing.
   - title: 'Glue vs EMR vs Kubernetes'
     time: 'June 2022'
     description: >-
