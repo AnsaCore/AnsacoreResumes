@@ -85,7 +85,7 @@ interesting_projects:
     time: 'November 2022'
     description: >-
       I've started up another project not because it's a groundbreaking application, but because of the learning opportunities. 
-      It's a quite simple planning tool for teams, but it requires more in-depth knowledge AWS services such as DynamoDB (secondary indices), 
+      It's a quite simple planning tool for teams, but it requires more in-depth knowledge of AWS services such as DynamoDB (local indices), 
       DynamoDB streams, the tight co-operation between API Gateway and Cognito and using the OAuth2 API with Cognito. 
       This project also uses Vue3's naive-ui for web UI components. The possibilities with naive-ui are amazing.
   - title: 'Glue vs EMR vs Kubernetes'
