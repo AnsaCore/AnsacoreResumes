@@ -9,3 +9,15 @@
 .timeline-card-projects {
   border-left-color: #8a53e6 !important;
 }
+
+.timeline-card-testimonies:before {
+  border-color: #c76504 !important;
+}
+
+.timeline-card-testimonies:after {
+  background-color: #c76504 !important;
+}
+
+.timeline-card-testimonies {
+  border-left-color: #c76504 !important;
+}
