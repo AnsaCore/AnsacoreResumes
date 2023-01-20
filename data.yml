@@ -136,6 +136,45 @@ work_experience:
       During my time as PR officer at EESTEC LC Antwerp, I was responsible for connecting students with companies
       by organising talks at the Middelheim campus in Antwerp.
 
+references:
+  - title: 'KRC Genk project (~1.5 years)'
+    description: >-
+      <p style='padding: 20px; font-style: italic;'>
+        Thanks for the fun collaboration on the KRC Genk project! You did a great job!
+        Your expertise, enthusiasm and drive were a real asset to the team.
+        I wish you a lot of success with your new challenge.
+      </p>
+    referer: 'Wendy Stouten, Project Manager at Cegeka'
+
+  - title: 'KRC Genk project (~1.5 years)'
+    description: >-
+      <p style='padding: 20px; font-style: italic;'>
+        Thanks for the great cooperation, topper! 
+        <br>
+        In case the grass at BASF is not as green as that of the Cegeka Arena, you know what to do! ;)
+      </p>
+    referer: 'Bart Vranckx, Data Architect at Cegeka'
+
+  - title: 'CBI & KRC Genk project (~1.5 years)'
+    description: >-
+      <p style='padding: 20px; font-style: italic;'>
+        Anthony, I wish you the very best in your continued career and
+        your further life. You really were a super colleague to
+        work with and I sincerely hope that we will be able to do this in the future.
+        <br>
+        No doubt until next time!
+      </p>
+    referer: 'Stefan Roland, Senior Business Intelligence Consultant at Cegeka'
+
+  - title: 'General review (~2 years working at Cegeka)'
+    description: >-
+      <p style='padding: 20px; font-style: italic;'>
+        It was always a pleasure working with someone as driven and ambitious as you!
+        <br>
+        Good luck in your further career Anthony!
+      </p>
+    referer: 'Breght Van Baelen, Team Lead at Cegeka'
+
 education:
   - degree: 'Master Sciences: Management'
     institution: 'Catholic University of Leuven'

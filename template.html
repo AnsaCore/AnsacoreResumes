@@ -164,6 +164,23 @@
   </div>
   <hr class="d-print-none"/>
   <div class="page-break"></div>
+  <hr class="d-print-none"/>
+  <div class="page-break"></div>
+  <div class="work-experience-section px-3 px-lg-4">
+    <h2 class="h3 mb-4">References and testimonies</h2>
+    <div class="timeline">
+      {% for reference in references %}
+        <div class="timeline-card timeline-card-projects card shadow-sm">
+          <div class="card-body">
+            <div class="h5 mb-1">{{ reference['title'] }}</div>
+            <div style="text-align: justify; text-justify: inter-word;">{{ reference['description'] }}</div>
+            <div style="text-align: end;">- {{ reference['referer'] }}</div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <hr class="d-print-none"/>
   <!-- div class="work-experience-section px-3 px-lg-4">
     <h2 class="h3 mb-4">Interesting Projects</h2>
     <div class="timeline">
