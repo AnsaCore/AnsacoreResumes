@@ -61,11 +61,21 @@ work_experience:
       I received formal trainings in PySpark, Airflow and Terraform, which I also continued to use during my spare time.
       <br>
       <br>
-      Right now I'm working on a self-created project that allows non-technical colleagues to validate and run pipelines in production and 
+      Right now I'm working on a self-created project called EASE that allows non-technical colleagues to validate and run pipelines in production and 
       acceptance before the pipeline has been deployed to those pillars. It saves a lot of precious time for both developers and analysts and 
       has significantly reduced the probability of deploying faulty code. In short: 
       the speed and quality of the team as a whole has increased significantly, which is something I'm very very proud of.
-      I have another idea to make life better at KBC, but I'm still figuring out the details before proposing it to the team as a new project.
+      <br>
+      <br>
+      ACE and FUN are two other interesting project I started at KBC. ACE allows you to correct historical data while 
+      solely focussing on the correction logic. FUN is a mechanism to share and version reusable notebooks. It's not just about the 
+      notebooks, it's also about the knowledge you are able to spread to the team.
+      <br>
+      <br>
+      I also enjoy sparking conversation. There was a piece of functionality for which a DynamoDB is the best possible 
+      technology. KBC's data platform is quite restrictive and doesn't allow using DynamoDB. However, I insisted that 
+      we can't let stuff like this slide and that we should really focus on getting that cloud-native mindset on point. 
+      With success!
       <br>
       <br>
       After one year, I've learned a lot and I am now considered to be a senior PySpark developer.
@@ -81,7 +91,15 @@ work_experience:
       language). These scripts had to be written in such a way that they could be easily reused for all clients.work_experience:
 
 references:
-  - title: 'KBC review of 2022/12/15 (~1.5 years at KBC)'
+  - title: 'KBC colleague feedback (2023/02/21)'
+    description: >-
+      <p style='padding: 20px; font-style: italic;'>
+          Hi Sam, very nice how you can spot added value for the entire team with EASE, ACE, FUN, etc. You have an 
+          exceptional combination of technical skills, platform and tooling knowledge, innovation, troubleshooting and 
+          speed. Thanks for always trying to help!
+      </p>
+    referer: 'Bram Vermeulen, Data Analyst at KBC'
+  - title: 'KBC HR coach review (2022/12/15)'
     description: >-
       <p style='padding: 20px; font-style: italic;'>
           The team and I saw Sam grow in his technical skills, his speed and confidence. Nice results concerning optimisations 
