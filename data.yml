@@ -88,7 +88,7 @@ work_experience:
       forecasting supply and demand and ensuring that the supply and demand can be met.
       OMP's software works in three layers: a generic layer, a layer per industry (e.g. chemicals, packaging, etc.) and
       a client-specific layer. I worked in the generic layer, where I wrote OPAL scripts (their own programming
-      language). These scripts had to be written in such a way that they could be easily reused for all clients.work_experience:
+      language). These scripts had to be written in such a way that they could be easily reused for all clients.
 
 references:
   - title: 'KBC colleague feedback (2023/02/21)'
