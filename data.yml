@@ -52,7 +52,7 @@ work_experience:
     employer: 'KBC'
     time: '2021 - Present'
     description: >-
-      Migration and creation of data pipelines in the AWS Cloud.
+      This position revolves mostly around development of data pipelines, both on-prem and in the cloud.
       I used Python, Jupyter, IntelliJ, PySpark, AWS S3, AWS SSM, AWS ECR, AWS Step Functions, DynamoDB and AWS Lambda 
       in a development context using 
       the Python boto3 API. I also used Apache Airflow to create DAGs, Docker to create containers that had to run on
