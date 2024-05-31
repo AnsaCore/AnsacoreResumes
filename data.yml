@@ -121,10 +121,13 @@ references:
     referer: 'An De Moor, mother of my mathematics student Lotte'
 
 interesting_projects:
-  - title: 'Exploring EKS'
-    time: 'TBD'
+  - title: 'Experimenting with AWS Gateway API web sockets'
+    time: 'May 2024'
     description: >-
-      EKS till holds some secrets, which annoys me. I'm planning to learn about this technology in the near future.
+      Everyone knows the key to a successful frontend is: not having to refresh the application in order to see up-to-date data.
+      That's why I was interested to implement a live-updating counter as some form of competition among friends.
+      Every time something specific happened in our day we could hit the counter button and our score would increase.
+      If someone else hit the count button then the score would also update on my screen. Success!!
   - title: 'More in-depth knowledge of AWS'
     time: 'November 2022'
     description: >-
