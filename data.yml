@@ -10,30 +10,26 @@ work_areas: 'Belgium: Antwerp, Brussels, Leuven'
 primary_skillset:
   - name: 'Python'
     proficiency: 95
-  - name: 'AWS (e.g. S3, SSM, ECR, Lambda, SNS, DynamoDB, etc.)'
-    proficiency: 85
-  - name: 'TerraForm'
-    proficiency: 85
-  - name: 'Docker'
-    proficiency: 70
-  - name: 'JetBrains IDEs'
-    proficiency: 95
   - name: 'PySpark'
     proficiency: 95
-
-secondary_skillset:
-  - name: 'Azure Cloud'
-    proficiency: 60
+  - name: 'Amazon Web Services'
+    proficiency: 85
   - name: 'Apache Airflow'
     proficiency: 80
+  - name: 'TerraForm'
+    proficiency: 85
+
+secondary_skillset:
+  - name: 'Docker'
+    proficiency: 70
+  - name: 'Azure Cloud'
+    proficiency: 60
   - name: 'Raspberry pi'
     proficiency: 65
   - name: 'Kubernetes'
     proficiency: 40
   - name: 'Jenkins'
-    proficiency: 45
-  - name: 'Google Cloud Platform'
-    proficiency: 60
+    proficiency: 75
 
 primary_languages:
   - name: 'Dutch'
