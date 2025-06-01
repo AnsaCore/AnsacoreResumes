@@ -71,7 +71,7 @@ work_experience:
       After such optimizations I conduct live knowledge transfer sessions to a large audience of data engineers (50-100).
       This is currently my biggest source of energy!
 
-  - title: 'Data Engineering'
+  - title: 'Data Engineer'
     employer: 'KBC Bank & Verzekeringen'
     time: '2021 - 2023'
     description: >-
@@ -252,4 +252,3 @@ education:
       populations, visualising the spread of a disease, implementing distributed processing and creating checkpoints
       during the simulation.
 linkedin_link: 'https://www.linkedin.com/in/sam-mylle-62b468138/'
-
