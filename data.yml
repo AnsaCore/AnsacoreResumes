@@ -4,30 +4,30 @@ introduction: >-
   Hi! I'm Sam Mylle. I am a Computer Scientist with a big passion for Cloud and Data Engineering. For both these
   fields, I use Python because of its great power and ease-of-use. Fun fact: I deployed this website because I was
   interested in getting to know more about Terraform and AWS' Amplify, Lambda, Route53 and API Gateway.
-age: 27
+age: 29
 work_areas: 'Belgium: Antwerp, Brussels, Leuven'
 
 primary_skillset:
   - name: 'Python'
     proficiency: 95
   - name: 'AWS (e.g. S3, SSM, ECR, Lambda, SNS, DynamoDB, etc.)'
-    proficiency: 90
+    proficiency: 85
   - name: 'TerraForm'
     proficiency: 85
   - name: 'Docker'
-    proficiency: 80
+    proficiency: 70
   - name: 'JetBrains IDEs'
     proficiency: 95
   - name: 'PySpark'
-    proficiency: 92
+    proficiency: 95
 
 secondary_skillset:
   - name: 'Azure Cloud'
     proficiency: 60
   - name: 'Apache Airflow'
-    proficiency: 70
+    proficiency: 80
   - name: 'Raspberry pi'
-    proficiency: 60
+    proficiency: 65
   - name: 'Kubernetes'
     proficiency: 40
   - name: 'Jenkins'
@@ -48,9 +48,32 @@ secondary_languages:
     proficiency: 60
 
 work_experience:
-  - title: 'Senior Data Engineering Tech Lead'
-    employer: 'KBC'
-    time: '2021 - Present'
+  - title: 'Senior Data Engineering Tech Lead (~Data Architect)'
+    employer: 'KBC Bank & Verzekeringen'
+    time: '2023 - Present'
+    description: >-
+      In my current role as a Data Engineering Tech Lead, I continue my work as a Data Engineer while also taking on additional leadership responsibilities, including
+      <ul>
+        <li>Participating in the recruitment and onboarding of new engineers</li>
+        <li>Evaluating the required skills of workloads and striking a balance between speed of delivery and learning opportunities for our developers</li>
+        <li>Close co-operation between the Scrum Master, Product Owner and myself to improve our internal processes</li>
+        <li>Owning and managing the technical backlog</li>
+        <li>I investigate, describe and plan the rollout of structural improvements or upgrades of our data pipelines</li>
+        <li>Tight co-operation between Data Architects and myself by discussing new policies and eventually rolling them out to the team</li>
+        <li>Overseeing Production releases from a technical standpoint</li>
+      </ul>
+      Since this function carries so many similarities to a Data Architect's content, I've been placed on the 
+      fasttrack to formally assume that role.
+      <br>
+      <br>
+      My deep knowledge in PySpark enables me to design and write highly performant data pipelines.
+      On several occasions I've been able to rewrite pipelines that cost several hundreds euros to less than five euros per day while running ten to twenty times faster.
+      After such optimizations I conduct live knowledge transfer sessions to a large audience of data engineers (50-100).
+      This is currently my biggest source of energy!
+
+  - title: 'Data Engineering'
+    employer: 'KBC Bank & Verzekeringen'
+    time: '2021 - 2023'
     description: >-
       This position revolves mostly around development of data pipelines, both on-prem and in the cloud.
       I used Python, Jupyter, IntelliJ, PySpark, AWS S3, AWS SSM, AWS ECR, AWS Step Functions, DynamoDB and AWS Lambda 
