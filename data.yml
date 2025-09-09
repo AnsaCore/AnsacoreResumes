@@ -44,9 +44,20 @@ secondary_languages:
     proficiency: 60
 
 work_experience:
-  - title: 'Senior Data Engineering Tech Lead (~Data Architect)'
+  - title: 'Data Architect'
     employer: 'KBC Bank & Verzekeringen'
-    time: '2023 - Present'
+    time: '2025 - present'
+    description: >-
+      The responsibilities for this role carry a lot of similarities with those of a Tech Lead (see previous role for full description).
+      Instead of making an impact at the level of an individual team, I now do so across several teams.
+      In this role, I work more closely with other Data Architects rather than with a Product Owner or Scrum Master.
+      An example of what I'm doing right now is to pioneer the use of new internal software packages and write out guidelines on
+      how and when to use them.
+      Another example revolves around sudden cost increases in our data pipelines, identifying the root cause and coordinating
+      the plan to get that sudden increase eliminated.
+  - title: 'Senior Data Engineering Tech Lead'
+    employer: 'KBC Bank & Verzekeringen'
+    time: '2023 - 2025'
     description: >-
       In my current role as a Data Engineering Tech Lead, I continue my work as a Data Engineer while also taking on additional leadership responsibilities, including:
       <ul>
