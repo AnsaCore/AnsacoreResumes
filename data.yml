@@ -1,4 +1,4 @@
-current_title: 'Senior Data Engineering Tech Lead'
+current_title: 'Data System Architect'
 employee_name: 'Sam Mylle'
 introduction: >-
   Hi! I'm Sam Mylle. I am a Computer Scientist with a big passion for Cloud and Data Engineering. For both these
@@ -18,6 +18,8 @@ primary_skillset:
     proficiency: 80
   - name: 'TerraForm'
     proficiency: 85
+  - name: 'Google Cloud Platform'
+    proficiency: 50
 
 secondary_skillset:
   - name: 'Docker'
@@ -30,6 +32,8 @@ secondary_skillset:
     proficiency: 40
   - name: 'Jenkins'
     proficiency: 75
+  - name: 'Data Vault Modelling Concepts'
+    proficiency: 50
 
 primary_languages:
   - name: 'Dutch'
@@ -44,7 +48,7 @@ secondary_languages:
     proficiency: 60
 
 work_experience:
-  - title: 'Data Architect'
+  - title: 'Data System Architect'
     employer: 'KBC Bank & Verzekeringen'
     time: '2025 - present'
     description: >-
@@ -57,7 +61,7 @@ work_experience:
       the plan to get that sudden increase eliminated.
   - title: 'Senior Data Engineering Tech Lead'
     employer: 'KBC Bank & Verzekeringen'
-    time: '2023 - 2025'
+    time: '2022 - 2025'
     description: >-
       In my current role as a Data Engineering Tech Lead, I continue my work as a Data Engineer while also taking on additional leadership responsibilities, including:
       <ul>
@@ -80,9 +84,10 @@ work_experience:
 
   - title: 'Data Engineer'
     employer: 'KBC Bank & Verzekeringen'
-    time: '2021 - 2023'
+    time: '2021 - 2022'
     description: >-
-      This position revolves mostly around development of data pipelines, both on-prem and in the cloud.
+      This position revolves mostly around development of data pipelines, both on-prem and in the cloud. 
+      Data would come from any system within KBC (SQL servers, SAP, etc.)
       I used Python, Jupyter, IntelliJ, PySpark, AWS S3, AWS SSM, AWS ECR, AWS Step Functions, DynamoDB and AWS Lambda 
       in a development context using 
       the Python boto3 API. I also used Apache Airflow to create DAGs, Docker to create containers that had to run on
@@ -229,6 +234,10 @@ interesting_projects:
       to solve together or answer any theoretical questions they may have. If they already did some tests, I also
       provide them with the answers and a detailed explanation on how to get the answer. Theoretically, I could also
       provide lessons in Python, but this is far less popular.
+  - title: 'Azure certification'
+    time: '2021'
+    description: >-
+      As part of my job at OMP, I managed to acquire the Azure Fundamental (AZ-900) and Azure Data Fundamentals (DP-900) certificates.
 
 education:
   - degree: 'Master Sciences: Management'
