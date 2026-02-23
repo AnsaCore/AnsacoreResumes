@@ -52,8 +52,6 @@ work_experience:
         <li>Working closely with Data Architects by discussing new policies and eventually rolling them out to the team</li>
         <li>Overseeing Production releases from a technical standpoint</li>
       </ul>
-      <br>
-      <br>
       My deep knowledge in PySpark enables me to design and write highly performant data pipelines.
       On several occasions I've been able to rewrite pipelines that cost several hundred euros to less than five euros per day, while running 10-20x faster.
       After such optimizations I conduct live knowledge transfer sessions to a large audience of data engineers (50-100).
