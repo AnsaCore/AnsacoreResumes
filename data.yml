@@ -11,7 +11,7 @@ email_address: mylle.sam@gmail.com
 work_areas: 'Belgium: Antwerp, Brussels, Leuven'
 
 skills_expert: ["Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL"]
-skills_advanced: ["AWS", "Glue", "EMR", "Azure", "TerraForm", "Docker", "Jenkins", "DataBricks"]
+skills_advanced: ["AWS", "Glue", "EMR", "Azure", "TerraForm", "Docker", "Jenkins", "DataBricks", "Pandas"]
 skills_working_knowledge: ["Data Vault", "Kimball", "Google Cloud Platform", "Quicksight", "Snowflake"]
 
 primary_languages:
