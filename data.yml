@@ -11,7 +11,7 @@ email_address: mylle.sam@gmail.com
 work_areas: 'Belgium: Antwerp, Brussels, Leuven'
 
 skills_expert: ["Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)"]
-skills_advanced: ["AWS", "Glue", "EMR", "Azure", "TerraForm", "Docker", "Jenkins", "Pandas", "Polars", "Hadoop", "GDPR", "Agile"]
+skills_advanced: ["AWS", "Glue", "EMR", "Azure", "TerraForm", "Docker", "Jenkins", "Pandas", "Polars", "Hadoop", "GDPR", "Agile", "MongoDB"]
 skills_basic: ["Data Vault", "Kimball", "Google Cloud Platform", "Quicksight", "Snowflake", "DataBricks", "Postgres", "MySQL", "BIM modelling", "Streamlit"]
 
 primary_languages:
@@ -63,7 +63,7 @@ work_experience:
     description: >-
       This position revolves mostly around development of data pipelines, both on-prem and in the cloud. 
       Data would come from any system within KBC (SQL servers, SAP, etc.)
-      I used Python, Jupyter, IntelliJ, PySpark, AWS S3, AWS SSM, AWS ECR, AWS Step Functions, DynamoDB and AWS Lambda 
+      I used Python, Jupyter, IntelliJ, PySpark, Hadoop, AWS S3, AWS SSM, AWS ECR, AWS Step Functions, DynamoDB and AWS Lambda 
       in a development context using 
       the Python boto3 API. I also used Apache Airflow to create DAGs, Docker to create containers that had to run on
       Airflow and Kubernetes to check on running containers with a faulty status. CI/CD pipelines were set up using
