@@ -12,7 +12,7 @@ work_areas: 'Belgium: Antwerp, Brussels, Leuven'
 
 skills_expert: ["Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)"]
 skills_advanced: ["AWS", "Glue", "EMR", "Azure", "TerraForm", "Docker", "Jenkins", "Pandas", "Polars", "Hadoop", "GDPR", "Agile", "MongoDB"]
-skills_basic: ["Data Vault", "Kimball", "Google Cloud Platform", "Quicksight", "Snowflake", "DataBricks", "Postgres", "MySQL", "BIM modelling", "Streamlit"]
+skills_basic: ["Data Vault", "Kimball", "Google Cloud Platform", "Quicksight", "Snowflake", "DataBricks", "Postgres", "MySQL", "BIM modelling", "Streamlit", "Agentic AI"]
 
 primary_languages:
   - name: 'Dutch'
@@ -29,7 +29,7 @@ secondary_languages:
 work_experience:
   - title: 'Data System Architect'
     employer: 'KBC Bank & Verzekeringen'
-    time: '2025 - present'
+    time: 'September 2025 - present'
     description: >-
       The responsibilities for this role carry a lot of similarities with those of a Tech Lead (see previous role for full description).
       Instead of making an impact at the level of an individual team, I now do so across several teams.
@@ -40,7 +40,7 @@ work_experience:
       the plan to get that sudden increase eliminated.
   - title: 'Senior Data Engineering Tech Lead'
     employer: 'KBC Bank & Verzekeringen'
-    time: '2023 - 2025'
+    time: 'January 2023 - September 2025'
     description: >-
       In my current role as a Data Engineering Tech Lead, I continue my work as a Data Engineer while also taking on additional leadership responsibilities, including:
       <ul>
@@ -59,7 +59,7 @@ work_experience:
 
   - title: 'Data Engineer'
     employer: 'KBC Bank & Verzekeringen'
-    time: '2021 - 2023'
+    time: 'April 2021 - January 2023'
     description: >-
       This position revolves mostly around development of data pipelines, both on-prem and in the cloud. 
       Data would come from any system within KBC (SQL servers, SAP, etc.)
@@ -72,7 +72,7 @@ work_experience:
       After one year, I learned a lot and I am now considered to be a senior PySpark developer.
   - title: 'Data Scientist Consultant'
     employer: 'OMP'
-    time: '2020 - 2021'
+    time: 'September 2020 - April 2021'
     description: >-
       OMP is a company selling supply chain planning software. In short, this means that their software takes care of
       forecasting supply and demand and ensuring that the supply and demand can be met.
