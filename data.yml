@@ -12,7 +12,7 @@ work_areas: 'Belgium: Antwerp, Brussels, Leuven'
 
 skills_expert: ["Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)"]
 skills_advanced: ["AWS", "Glue", "EMR", "Azure", "TerraForm", "Docker", "Jenkins", "Pandas", "Polars", "Hadoop", "GDPR", "Agile", "MongoDB", "AWS Bedrock (Agentic context)"]
-skills_basic: ["Data Vault", "Kimball", "Google Cloud Platform", "Quicksight", "Snowflake", "DataBricks", "Postgres", "MySQL", "BIM modelling", "Streamlit", "Agentic AI"]
+skills_basic: ["Data Vault", "Kimball", "Google Cloud Platform", "Quicksight", "Snowflake", "DataBricks", "Postgres", "MySQL", "BIM modelling", "Streamlit", "Agentic AI", "DBT"]
 
 primary_languages:
   - name: 'Dutch'
