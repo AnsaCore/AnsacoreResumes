@@ -8,7 +8,7 @@ introduction: >-
 birth_date: 29/05/1996
 phone_number: +32 498 77 25 03
 email_address: mylle.sam@gmail.com
-work_areas: 'Belgium: Antwerp, Brussels, Leuven'
+work_areas: 'Belgium: Antwerp, Brussels, Leuven, Ghent'
 
 skills_expert: ["Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)"]
 skills_advanced: ["AWS", "Glue", "EMR", "Azure", "TerraForm", "Docker", "Jenkins", "Pandas", "Polars", "Hadoop", "GDPR", "Agile", "MongoDB", "AWS Bedrock (Agentic context)"]
