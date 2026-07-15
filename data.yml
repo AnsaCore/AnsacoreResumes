@@ -27,9 +27,16 @@ secondary_languages:
     proficiency: 60
 
 work_experience:
+  - title: 'Senior Data Engineer'
+    employer: 'KBC Bank & Verzekeringen'
+    time: 'July 2026 - present'
+    description: >-
+      I did notice that the position of System Architect is not within my field of interest.
+      There was no technical challenge in what I was doing and the position was mostly about people and change management.
+      That's why I decided to return to my original position as a Data Engineer.
   - title: 'Data System Architect'
     employer: 'KBC Bank & Verzekeringen'
-    time: 'September 2025 - present'
+    time: 'September 2025 - July 2026'
     description: >-
       The responsibilities for this role carry a lot of similarities with those of a Tech Lead (see previous role for full description).
       Instead of making an impact at the level of an individual team, I now do so across several teams.
