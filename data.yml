@@ -11,7 +11,7 @@ email_address: mylle.sam@gmail.com
 work_areas: 'Belgium: Antwerp, Brussels, Leuven, Ghent'
 
 skills_expert: ["Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)"]
-skills_advanced: ["AWS", "Glue", "EMR", "Azure", "TerraForm", "Docker", "Jenkins", "Pandas", "Polars", "Iceberg", "Hadoop", "GDPR", "Agile", "MongoDB", "AWS Bedrock (Agentic context)"]
+skills_advanced: ["AWS", "Glue", "EMR", "Azure", "TerraForm", "Docker", "Jenkins", "Pandas", "Polars", "Iceberg", "Hadoop", "GDPR", "Agile", "MongoDB", "AWS Bedrock"]
 skills_basic: ["Data Vault", "Kimball", "Google Cloud Platform", "Quicksight", "Snowflake", "DataBricks", "Postgres", "MySQL", "BIM modelling", "Streamlit", "Agentic AI", "DBT", "Jinja"]
 
 primary_languages:
@@ -33,7 +33,13 @@ work_experience:
     description: >-
       I did notice that the position of System Architect is not within my field of interest.
       There was no technical challenge in what I was doing and the position was mostly about people and change management.
+      In the true sense of the Agile profile, this may not have been a real "System Architect" role.
       That's why I decided to return to my original position as a Data Engineer.
+    skills: [
+      "Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)", "AWS", "TerraForm",
+      "Docker", "Jenkins", "Pandas", "Polars", "Iceberg", "Hadoop", "GDPR", "Agile", "AWS Bedrock", "BIM modelling",
+      "Agentic AI", "Jinja"
+    ]
   - title: 'Data System Architect'
     employer: 'KBC Bank & Verzekeringen'
     time: 'September 2025 - July 2026'
@@ -45,6 +51,10 @@ work_experience:
       how and when to use them.
       Another example revolves around sudden cost increases in our data pipelines, identifying the root cause and coordinating
       the plan to get that sudden increase eliminated.
+    skills: [
+      "Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)", "AWS", "TerraForm",
+      "Docker", "Jenkins", "Pandas", "Polars", "Iceberg", "Hadoop", "GDPR", "Agile", "BIM modelling", "Jinja"
+    ]
   - title: 'Senior Data Engineering Tech Lead'
     employer: 'KBC Bank & Verzekeringen'
     time: 'January 2023 - September 2025'
@@ -63,6 +73,10 @@ work_experience:
       On several occasions I've been able to rewrite pipelines that cost several hundred euros to less than five euros per day, while running 10-20x faster.
       After such optimizations I conduct live knowledge transfer sessions to a large audience of data engineers (50-100).
       This is currently my biggest source of energy!
+    skills: [
+      "Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)", "AWS", "TerraForm",
+      "Docker", "Jenkins", "Pandas", "Polars", "Hadoop", "GDPR", "Agile", "BIM modelling", "Jinja"
+    ]
 
   - title: 'Data Engineer'
     employer: 'KBC Bank & Verzekeringen'
@@ -77,6 +91,10 @@ work_experience:
       Concourse and/or Jenkins, which I occasionally had to modify as well.
       I received formal trainings in PySpark, Airflow and Terraform, which I also continued to use during my spare time.
       After one year, I learned a lot and I am now considered to be a senior PySpark developer.
+    skills: [
+      "Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)", "AWS", "TerraForm",
+      "Docker", "Jenkins", "Pandas", "Hadoop", "GDPR", "Agile", "BIM modelling", "Jinja", "Data Vault"
+    ]
   - title: 'Data Scientist Consultant'
     employer: 'OMP'
     time: 'September 2020 - April 2021'
@@ -86,6 +104,9 @@ work_experience:
       OMP's software works in three layers: a generic layer, a layer per industry (e.g. chemicals, packaging, etc.) and
       a client-specific layer. I worked in the generic layer, where I wrote OPAL scripts (their own programming
       language). These scripts had to be written in such a way that they could be easily reused for all clients.
+      I also used Azure for implementing a primitive form of ETL on Azure Blob Storage, using Azure Functions.
+      This also sparked my interest in Data Engineering.
+    skills: [ "Python", "ETL", "Azure" ]
 
 references:
   - title: 'KBC colleague feedback (2023/02/21)'
