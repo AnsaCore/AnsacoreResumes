@@ -10,9 +10,9 @@ phone_number: +32 498 77 25 03
 email_address: mylle.sam@gmail.com
 work_areas: 'Belgium: Antwerp, Brussels, Leuven, Ghent'
 
-skills_expert: ["Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)"]
-skills_advanced: ["AWS", "Glue", "EMR", "Azure", "TerraForm", "Docker", "Jenkins", "Pandas", "Polars", "Iceberg", "Hadoop", "GDPR", "Agile", "MongoDB", "AWS Bedrock"]
-skills_basic: ["Data Vault", "Kimball", "Google Cloud Platform", "Quicksight", "Snowflake", "DataBricks", "Postgres", "MySQL", "BIM modelling", "Streamlit", "Agentic AI", "DBT", "Jinja"]
+skills_expert: ["Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)", "Polars"]
+skills_advanced: ["AWS", "Glue", "EMR", "Azure", "TerraForm", "Docker", "Jenkins", "Pandas", "Iceberg", "Hadoop", "GDPR", "Agile", "MongoDB", "AWS Bedrock", "Agentic AI", "Jinja"]
+skills_basic: ["Data Vault", "Kimball", "Google Cloud Platform", "Quicksight", "Snowflake", "DataBricks", "Postgres", "MySQL", "BIM modelling", "Streamlit", "DBT"]
 
 primary_languages:
   - name: 'Dutch'
