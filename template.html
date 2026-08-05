@@ -457,6 +457,27 @@
     </div>
   </div>
   <hr class="d-print-none"/>
+  <div class="work-experience-section px-3 px-lg-4">
+    <h2 class="h3 mb-4">Interesting projects</h2>
+    <div class="timeline">
+      {% for project in interesting_projects %}
+        <div class="timeline-card timeline-card-primary card shadow-sm">
+          <div class="card-body">
+            <div class="h5 mb-1">{{ project['title'] }}</div>
+            <div style="text-align: justify; text-justify: inter-word;">{{ project['description'] }}</div>
+            {% if project['skills'] %}
+              <div class="position-skills d-flex flex-wrap gap-1 mt-2">
+                {% for skill in project['skills'] %}
+                  <span class="badge rounded-pill border border-primary text-primary" style="font-size:0.75rem; font-weight:500;">{{ skill }}</span>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <hr class="d-print-none"/>
   <div class="education-section px-3 px-lg-4 pb-4">
     <h2 class="h3 mb-4">Education</h2>
     <div class="timeline">
@@ -469,55 +490,6 @@
           </div>
         </div>
       {% endfor %}
-    </div>
-  </div>
-  <hr class="d-print-none"/>
-  <div class="work-experience-section px-3 px-lg-4">
-    <h2 class="h3 mb-4">References and testimonies</h2>
-    <div class="timeline">
-      {% for reference in references %}
-        <div class="timeline-card timeline-card-testimonies card shadow-sm">
-          <div class="card-body">
-            <div class="h5 mb-1">{{ reference['title'] }}</div>
-            <div style="text-align: justify; text-justify: inter-word;">{{ reference['description'] }}</div>
-            <div style="text-align: end;">- {{ reference['referer'] }}</div>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-  <hr class="d-print-none"/>
-  <div class="contant-section px-3 px-lg-4 pb-4 d-print-none" id="contact">
-    <h2 class="h3 text mb-3">Contact</h2>
-    <div class="row">
-      <div class="col-md-7 d-print-none">
-        <form id="contact_form">
-          <div class="my-2">
-            <div class="row">
-              <div class="col-6">
-                <input class="form-control" type="text" id="name" name="name" placeholder="Your Name" required>
-              </div>
-              <div class="col-6">
-                <input class="form-control" type="email" id="email" name="email" placeholder="Your E-mail" required>
-              </div>
-            </div>
-            <div class="form-group my-2">
-              <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4"  placeholder="Your Message" required></textarea>
-            </div>
-          </div>
-        </form>
-        <button class="btn btn-primary mt-2" onclick="submit()">Send</button>
-      </div>
-      <div class="col d-none d-print-block">
-        <div class="mt-2">
-          <div>
-            <div class="mb-2">
-              <div class="text-dark"><i class="fab fa-linkedin mr-1"></i><span>{{ linkedin_link }}</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </div></div>

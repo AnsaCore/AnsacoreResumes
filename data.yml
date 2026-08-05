@@ -12,7 +12,7 @@ work_areas: 'Belgium: Antwerp, Brussels, Leuven, Ghent'
 
 skills_expert: ["Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)", "Polars"]
 skills_advanced: ["AWS", "Glue", "EMR", "Azure", "TerraForm", "Docker", "Jenkins", "Pandas", "Iceberg", "Hadoop", "GDPR", "Agile", "MongoDB", "AWS Bedrock", "Agentic AI", "Jinja"]
-skills_basic: ["Data Vault", "Kimball", "Google Cloud Platform", "Quicksight", "Snowflake", "DataBricks", "Postgres", "MySQL", "BIM modelling", "Streamlit", "DBT"]
+skills_basic: ["Data Vault", "Kimball", "Google Cloud Platform", "Quicksight", "Snowflake", "DataBricks", "Postgres", "MySQL", "BIM modelling", "Streamlit", "DBT", "EKS"]
 
 primary_languages:
   - name: 'Dutch'
@@ -108,36 +108,6 @@ work_experience:
       This also sparked my interest in Data Engineering.
     skills: [ "Python", "ETL", "Azure" ]
 
-references:
-  - title: 'KBC colleague feedback (2023/02/21)'
-    description: >-
-      <p style='padding: 20px; font-style: italic;'>
-          Hi Sam, very nice how you can spot added value for the entire team with EASE, ACE, FUN, etc. You have an 
-          exceptional combination of technical skills, platform and tooling knowledge, innovation, troubleshooting and 
-          speed. Thanks for always trying to help!
-      </p>
-    referer: 'Bram Vermeulen, Data Analyst at KBC'
-  - title: 'KBC HR coach review (2022/12/15)'
-    description: >-
-      <p style='padding: 20px; font-style: italic;'>
-          The team and I saw Sam grow in his technical skills, his speed and confidence. Nice results concerning optimisations 
-          and automations. The largest visible progress is his increased confidence, because of which Sam is taking the technical 
-          lead more often. Keep doing this, especially the last part. Let your voice be heard, show yourself, dare to challenge 
-          even though you're not yet the expert on some topics. By asking the right questions you nudge yourself and 
-          the team to really think things through.
-          <br>
-          Nice growth, Sam!
-      </p>
-    referer: 'Els Vercauteren, Scrum master at KBC'
-  - title: 'Mathematics tutoring feedback of 2023/01/19'
-    description: >-
-      <p style='padding: 20px; font-style: italic;'>
-          We've decided to end the tutoring courses because she [Lotte] has a better understanding of mathematics and 
-          she no longer has any issues. She even got a score of 80% on her last exams. We would like to thank you for 
-          your time and the good courses you gave Lotte. Her results have significantly improved because of you!
-      </p>
-    referer: 'An De Moor, mother of my mathematics student Lotte'
-
 certifications:
   - name: "<a href='https://www.credly.com/earner/earned/badge/0a15a134-848b-4ec5-87f2-f9cfcc9b47af'>Azure Fundamentals (AZ-900)</a>"
     badge_image: images/azure_az900.png
@@ -145,88 +115,46 @@ certifications:
     badge_image: images/sa_safe.png
 
 interesting_projects:
+  - title: 'Exploring EKS'
+    description: >-
+      I'm currently trying to set up an EKS cluster from scratch. The idea is simple: host an API that will calculate
+      any fibonacci number. The API itself is not supposed to be impressive, the setup is! So it will be hosted using
+      EKS, using docker containers in ECR and all infrastructure will be done using Terraform (Infrastructure as Code).
+      I did hit a timeout while creating the node group, so ask me how I'm doing with that when we get to talking!
+    skills: ["Python", "AWS", "EKS", "Terraform", "Infrastructure as Code", "ECR", "IAM", "Docker"]
+  - title: 'Learning DBT and DataBricks'
+    description: >-
+      Using the free community edition of DataBricks, I started to check out how it works. It's quite similar to any
+      self-hosted data platform (such as the one at KBC) so the knowledge gap wasn't as big as I'd expected.
+      As for DBT, I took some Pluralsight courses and tried integrating it in DataBricks, which worked quite nicely.
+    skills: ["DBT", "SQL", "DataBricks", "Python", "ETL"]
   - title: 'Experimenting with AWS Gateway API web sockets'
-    time: 'May 2024'
     description: >-
       Everyone knows the key to a successful frontend is: not having to refresh the application in order to see up-to-date data.
       That's why I was interested to implement a live-updating counter as some form of competition among friends.
       Every time something specific happened in our day we could hit the counter button and our score would increase.
       If someone else hit the count button then the score would also update on my screen. Success!!
+    skills: ["Python", "AWS", "API Gateway", "IAM", "Lambda", "Terraform", "Infrastructure as Code", "Amplify"]
   - title: 'More in-depth knowledge of AWS'
-    time: 'November 2022'
     description: >-
       I've started up another project not because it's a groundbreaking application, but because of the learning opportunities. 
       It's a quite simple planning tool for teams, but it requires more in-depth knowledge of AWS services such as DynamoDB (local indices), 
       DynamoDB streams, the tight co-operation between API Gateway and Cognito and using the OAuth2 API with Cognito. 
       This project also uses Vue3's naive-ui for web UI components. The possibilities with naive-ui are amazing.
-  - title: 'Glue vs EMR vs Kubernetes'
-    time: 'June 2022'
-    description: >-
-      As someone who enjoys PySpark, I thought it to be interesting to have a look at AWS Glue and compare it to
-      possible alternatives such as EMR and Kubernetes. Glue was a true delight to work with since it immediately
-      worked. Kubernetes is a tough beast to tame to say the least. Setup
-      and maintenance costs are definitely higher than Glue. I then studied the cost differences between EMR, Kubernetes
-      and Glue. I quickly found that the operational cost of Glue is higher than the operational costs of EMR and K8s
-      as soon as you exceed 500 hours of computations on a reference VM. Take into account the maintenance cost of K8s
-      and you would need hundred thousands of hours before Kubernetes would be cheaper to set up. Even though 
-      operational
-      costs of Glue seem higher, it is really lower when you take everything into account! Another important fact is
-      that companies would have more manpower available for value creation instead of wasting it all on creating and
-      maintaining a Kubernetes cluster for their Big Data Engineering projects.
-  - title: 'Exploring Google Cloud Platform'
-    time: 'March 2022'
-    description: >-
-      I've been focussing on AWS a lot. While AWS does shine in its vast service offering and cost leadership, I
-      thought it might still be interesting to explore other options. From what I understood so far, GCP really excels
-      in AI and Machine Learning services. That's why I've decided to make myself comfortable with GCP as well. In order 
-      to quickly build and deploy apps on GCP whenever I would have an idea, I set up an easy CI/CD process that allows 
-      me to set up all necessary infrastructure to build and run my own Python packages with the click of a button. 
-      To achieve this, I've used Cloud Run, Cloud Source Repositories, Cloud Build, Cloud Artifact and Terraform. 
-      I've also taken a look at using Cloud Storage and BigQuery for serverless Data Engineering. So far, my findings 
-      are that AWS and GCP are quite similar, although both have their own unique 'quirks' and pricing mechanisms. 
-      AWS does seem to have an edge for me personally, due to its larger range of services. GCP still has some work to 
-      do though since I encountered quite a few bugs in the UI and in its Terraform provider.
-  - title: 'VueJS research for rapid development of cloud applications'
-    time: 'January 2022'
-    description: >-
-      Serverless cloud applications are key in the world of tomorrow. I set up a polling website using Terraform,
-      AWS (DynamoDB, Amplify, S3, Lambda, Route53 and API Gateway) and VueJS. People can vote on the Belgian-Dutch
-      Big Brother television show. Yes, this show is a guilty pleasure of mine! I also experimented with Google AdSense,
-      but sadly they do not place ads on websites whose content is rendered by JavaScript. I've also incorporated some
-      data engineering in there. Basically every 10 minutes, the data is ingested into AWS S3 and processed using an
-      AWS Lambda. This data can then be shown to the users of my website. What makes this really fun is that I have
-      a fully available website that took about 3 days to create without the hassle of infrastructure management.
-      It also costs 50 cents per month to keep it operational while having approximately 30.000 visitors
-      per week. Serverless FTW! Although the show has ended, you can still visit the website 
-      <a target="_blank" href='https://bigbrother-nlbe-poll.ansacore.com'>here</a>.
+    skills: ["Python", "AWS", "API Gateway", "IAM", "Lambda", "Terraform", "Infrastructure as Code", "Amplify", "DynamoDB", "S3", "Cognito", "Vue", "Route53"]
   - title: 'Central heating monitor'
-    time: 'December 2021'
     description: >-
       We had some trouble with the heating system in our house. My father is quite the handyman, but diagnosing the
       problem without historical temperatures proved to be quite difficult.
       I then used a Raspberry Pi with some DS18B20 heat sensors to capture the data in real time. This gave my father
-      the monitoring abilities he needed to find the problem. The technologies I used were: AWS (SSM, DynamoDB
-      Lambda and SNS), PyCharm, Docker, Raspberry Pi OS and Python.
+      the monitoring abilities he needed to find the problem.
+    skills: ["Python", "AWS", "IAM", "DynamoDB", "SSM", "Lambda", "SNS", "Raspberry Pi", "Docker", "Plotly", "SSM"]
   - title: 'Setting up this website'
-    time: 'November 2021'
     description: >-
       CVs get outdated, websites do not. That is the reason I created this website. Whether I gave you my CV yesterday
       or last year, you will have the most up-to-date version anyway. Fun fact about this website: I created it in such
-      a way so that my friends would be able to use it as well. The technologies I used were: AWS (Amplify, SSM,
-      Lambda, SNS, API Gateway, Route53, S3 and IAM Management), PyCharm, Terraform, Docker and Python.
-  - title: 'Teaching'
-    time: 'November 2021'
-    description: >-
-      Due to Covid-19, some students are falling behind in school. A popular course from which troubles arise is math,
-      which is why I started teaching it using <a href='https://bijleshuis.be' target='#blank'>BijlesHuis</a>. The
-      student provides me with the course material and I prepare some exercises
-      to solve together or answer any theoretical questions they may have. If they already did some tests, I also
-      provide them with the answers and a detailed explanation on how to get the answer. Theoretically, I could also
-      provide lessons in Python, but this is far less popular.
-  - title: 'Azure certification'
-    time: '2021'
-    description: >-
-      As part of my job at OMP, I managed to acquire the Azure Fundamental (AZ-900) and Azure Data Fundamentals (DP-900) certificates.
+      a way so that my friends would be able to use it as well.
+    skills: ["Python", "AWS", "IAM", "DynamoDB", "Lambda", "SNS", "Plotly", "SSM", "Terraform", "Infrastructure as Code", "Amplify", "API Gateway"]
 
 education:
   - degree: 'Master Sciences: Management'
