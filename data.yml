@@ -38,7 +38,7 @@ work_experience:
     skills: [
       "Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)", "AWS", "TerraForm",
       "Docker", "Jenkins", "Pandas", "Polars", "Iceberg", "Hadoop", "GDPR", "Agile", "AWS Bedrock", "BIM modelling",
-      "Agentic AI", "Jinja", "Grafana"
+      "Agentic AI", "Jinja", "Grafana", "ETL"
     ]
   - title: 'Data System Architect'
     employer: 'KBC Bank & Verzekeringen'
@@ -53,7 +53,7 @@ work_experience:
       the plan to get that sudden increase eliminated.
     skills: [
       "Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)", "AWS", "TerraForm",
-      "Docker", "Jenkins", "Pandas", "Polars", "Iceberg", "Hadoop", "GDPR", "Agile", "BIM modelling", "Jinja", "Grafana"
+      "Docker", "Jenkins", "Pandas", "Polars", "Iceberg", "Hadoop", "GDPR", "Agile", "BIM modelling", "Jinja", "Grafana", "ETL"
     ]
   - title: 'Senior Data Engineering Tech Lead'
     employer: 'KBC Bank & Verzekeringen'
@@ -76,7 +76,7 @@ work_experience:
       This is currently my biggest source of energy!
     skills: [
       "Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)", "AWS", "TerraForm",
-      "Docker", "Jenkins", "Pandas", "Polars", "Hadoop", "GDPR", "Agile", "BIM modelling", "Jinja", "Grafana"
+      "Docker", "Jenkins", "Pandas", "Polars", "Hadoop", "GDPR", "Agile", "BIM modelling", "Jinja", "Grafana", "ETL"
     ]
 
   - title: 'Data Engineer'
@@ -94,7 +94,7 @@ work_experience:
       After one year, I learned a lot and I am now considered to be a senior PySpark developer.
     skills: [
       "Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)", "AWS", "TerraForm",
-      "Docker", "Jenkins", "Pandas", "Hadoop", "GDPR", "Agile", "BIM modelling", "Jinja", "Data Vault", "Grafana"
+      "Docker", "Jenkins", "Pandas", "Hadoop", "GDPR", "Agile", "BIM modelling", "Jinja", "Data Vault", "Grafana", "ETL"
     ]
   - title: 'Data Scientist Consultant'
     employer: 'OMP'
