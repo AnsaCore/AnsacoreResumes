@@ -10,8 +10,8 @@ phone_number: +32 498 77 25 03
 email_address: mylle.sam@gmail.com
 work_areas: 'Belgium: Antwerp, Brussels, Leuven, Ghent'
 
-skills_expert: ["Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)", "Polars"]
-skills_advanced: ["AWS", "Glue", "EMR", "Azure", "TerraForm", "Docker", "Jenkins", "Pandas", "Iceberg", "Hadoop", "GDPR", "Agile", "MongoDB", "AWS Bedrock", "Agentic AI", "Jinja"]
+skills_expert: ["Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)", "Polars", "Git"]
+skills_advanced: ["AWS", "Glue", "EMR", "Azure", "TerraForm", "Docker", "Jenkins", "Pandas", "Iceberg", "Hadoop", "GDPR", "Agile", "MongoDB", "AWS Bedrock", "Agentic AI", "Jinja", "Grafana"]
 skills_basic: ["Data Vault", "Kimball", "Google Cloud Platform", "Quicksight", "Snowflake", "DataBricks", "Postgres", "MySQL", "BIM modelling", "Streamlit", "DBT", "EKS"]
 
 primary_languages:
@@ -38,7 +38,7 @@ work_experience:
     skills: [
       "Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)", "AWS", "TerraForm",
       "Docker", "Jenkins", "Pandas", "Polars", "Iceberg", "Hadoop", "GDPR", "Agile", "AWS Bedrock", "BIM modelling",
-      "Agentic AI", "Jinja"
+      "Agentic AI", "Jinja", "Grafana"
     ]
   - title: 'Data System Architect'
     employer: 'KBC Bank & Verzekeringen'
@@ -53,7 +53,7 @@ work_experience:
       the plan to get that sudden increase eliminated.
     skills: [
       "Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)", "AWS", "TerraForm",
-      "Docker", "Jenkins", "Pandas", "Polars", "Iceberg", "Hadoop", "GDPR", "Agile", "BIM modelling", "Jinja"
+      "Docker", "Jenkins", "Pandas", "Polars", "Iceberg", "Hadoop", "GDPR", "Agile", "BIM modelling", "Jinja", "Grafana"
     ]
   - title: 'Senior Data Engineering Tech Lead'
     employer: 'KBC Bank & Verzekeringen'
@@ -68,6 +68,7 @@ work_experience:
         <li>I investigate, describe and plan the rollout of structural improvements or upgrades of our data pipelines</li>
         <li>Working closely with Data Architects by discussing new policies and eventually rolling them out to the team</li>
         <li>Overseeing Production releases from a technical standpoint</li>
+        <li>Monitoring pipeline performance in Grafana and take action when resources are being wasted</li>
       </ul>
       My deep knowledge in PySpark enables me to design and write highly performant data pipelines.
       On several occasions I've been able to rewrite pipelines that cost several hundred euros to less than five euros per day, while running 10-20x faster.
@@ -75,7 +76,7 @@ work_experience:
       This is currently my biggest source of energy!
     skills: [
       "Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)", "AWS", "TerraForm",
-      "Docker", "Jenkins", "Pandas", "Polars", "Hadoop", "GDPR", "Agile", "BIM modelling", "Jinja"
+      "Docker", "Jenkins", "Pandas", "Polars", "Hadoop", "GDPR", "Agile", "BIM modelling", "Jinja", "Grafana"
     ]
 
   - title: 'Data Engineer'
@@ -88,12 +89,12 @@ work_experience:
       in a development context using 
       the Python boto3 API. I also used Apache Airflow to create DAGs, Docker to create containers that had to run on
       Airflow and Kubernetes to check on running containers with a faulty status. CI/CD pipelines were set up using
-      Concourse and/or Jenkins, which I occasionally had to modify as well.
+      Git (BitBucket and Github), Concourse and/or Jenkins, which I occasionally had to modify as well.
       I received formal trainings in PySpark, Airflow and Terraform, which I also continued to use during my spare time.
       After one year, I learned a lot and I am now considered to be a senior PySpark developer.
     skills: [
       "Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)", "AWS", "TerraForm",
-      "Docker", "Jenkins", "Pandas", "Hadoop", "GDPR", "Agile", "BIM modelling", "Jinja", "Data Vault"
+      "Docker", "Jenkins", "Pandas", "Hadoop", "GDPR", "Agile", "BIM modelling", "Jinja", "Data Vault", "Grafana"
     ]
   - title: 'Data Scientist Consultant'
     employer: 'OMP'
