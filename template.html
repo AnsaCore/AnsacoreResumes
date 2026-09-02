@@ -291,8 +291,13 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <button onclick="window.print()" class="btn btn-outline-secondary btn-sm ms-2" title="Print CV">
-                    <i class="fas fa-print me-1"></i>Print
+                  <a class="nav-link" href="https://github.com/orgs/SamMyllePortfolio/repositories" title="GitHub" target="_blank">
+                    <i class="fab fa-github"></i><span class="menu-title sr-only">GitHub</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <button onclick="window.print()" class="btn btn-outline-secondary btn-sm ms-2" title="Save as PDF">
+                    <i class="fas fa-download me-1"></i>Save as PDF
                   </button>
                 </li>
               </ul>
@@ -317,7 +322,9 @@
           <span class="me-3"><i class="fas fa-phone me-1"></i>{{ phone_number }}</span>
           <span class="me-3"><i class="fas fa-envelope me-1"></i>{{ email_address }}</span>
           <span class="me-3"><i class="fas fa-calendar me-1"></i>{{ birth_date }}</span>
-          <span><i class="fas fa-map-marker-alt me-1"></i>{{ work_areas }}</span>
+          <span class="me-3"><i class="fas fa-map-marker-alt me-1"></i>{{ work_areas }}</span>
+          <span class="me-3"><i class="fab fa-linkedin me-1"></i>{{ linkedin_link }}</span>
+          <span><i class="fab fa-github me-1"></i>https://github.com/orgs/SamMyllePortfolio/repositories</span>
         </div>
       </div>
     </div>
@@ -506,6 +513,8 @@
             <nav role="navigation">
               <ul class="nav justify-content-center">
                 <li class="nav-item"><a class="nav-link" href="{{ linkedin_link }}" title="LinkedIn"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="https://github.com/orgs/SamMyllePortfolio/repositories" title="GitHub" target="_blank"><i class="fab fa-github"></i><span class="menu-title sr-only">GitHub</span></a>
                 </li>
               </ul>
             </nav>
