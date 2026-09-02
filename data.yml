@@ -116,12 +116,21 @@ certifications:
     badge_image: images/sa_safe.png
 
 interesting_projects:
+  - title: 'DBT development and DataVault 2.0 modelling'
+    description: >-
+      KBC doesn't use Data Vault, Kimball or DBT, so I started my own project to get to know these concepts.
+      It uses the Jaffle demo dataset from DBT itself using an Oracle engine and goes through the medallion architecture.
+      The Data Vault concepts are applied: SCD type 2, hubs, links and sats and the distinction between a Raw and Business vault.
+      Next step is to do kimball modelling, but I haven't quite gotten to it.
+      You can view the (in-progress) project here: <a href='https://github.com/SamMyllePortfolio/dbt-datavault'>dbt-datavault</a>.
+    skills: ["DBT", "SQL", "Data Vault", "Python", "ETL", "Oracle", "Docker"]
   - title: 'Exploring EKS'
     description: >-
       I'm currently trying to set up an EKS cluster from scratch. The idea is simple: host an API that will calculate
       any fibonacci number. The API itself is not supposed to be impressive, the setup is! So it will be hosted using
       EKS, using docker containers in ECR and all infrastructure will be done using Terraform (Infrastructure as Code).
       I did hit a timeout while creating the node group, so ask me how I'm doing with that when we get to talking!
+      You can view the (in-progress) project here: <a href='https://github.com/SamMyllePortfolio/kubernetes'>kubernetes</a>.
     skills: ["Python", "AWS", "EKS", "Terraform", "Infrastructure as Code", "ECR", "IAM", "Docker"]
   - title: 'Learning DBT and DataBricks'
     description: >-
