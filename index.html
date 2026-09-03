@@ -333,7 +333,7 @@
     <div class="row">
       <div class="col-md-6">
         <h2 class="h3 mb-3">About Me</h2>
-        <p>Hi! I'm Sam Mylle. I am a Computer Scientist with a big passion for Cloud and Data Engineering. For both these fields, I use Python because of its great power and ease-of-use. Fun fact: I deployed this CV as a website because I was interested in getting to know more about Terraform and AWS' Amplify, Lambda, Route53 and API Gateway. You can visit this website at <a href="https://sammylle.ansacore.com">sammylle.ansacore.com</a>!</p>
+        <p>Hi! I'm Sam Mylle. I am a Computer Scientist with a big passion for Cloud and Data Engineering. For both these fields, I use Python because of its great power and ease-of-use. Fun fact: I deployed this CV as a website because I was interested in getting to know more about Terraform and AWS Amplify, Lambda, Route53 and API Gateway. You can visit this website at <a href="https://sammylle.ansacore.com">sammylle.ansacore.com</a>!</p>
       </div>
       <div class="col-md-5 offset-md-1 d-print-none">
         <div class="row mt-2">
@@ -393,8 +393,6 @@
             <span class="badge rounded-pill border border-primary text-primary px-3 py-2" style="font-size:0.85rem; font-weight:500;">Polars</span>
           
             <span class="badge rounded-pill border border-primary text-primary px-3 py-2" style="font-size:0.85rem; font-weight:500;">Git</span>
-          
-            <span class="badge rounded-pill border border-primary text-primary px-3 py-2" style="font-size:0.85rem; font-weight:500;">ETL</span>
           
         </div>
       </div>
@@ -521,7 +519,11 @@
           <div class="card-body">
             <div class="h5 mb-1">Senior Data Engineer <span class="text-muted h6">at KBC Bank & Verzekeringen</span></div>
             <div class="text-muted text-small mb-2">July 2026 - present</div>
-            <div style="text-align: justify; text-justify: inter-word;">I did notice that the position of System Architect is not within my field of interest. There was no technical challenge in what I was doing and the position was mostly about people and change management. In the true sense of the Agile profile, this may not have been a real "System Architect" role. That's why I decided to return to my original position as a Data Engineer.</div>
+            <div style="text-align: justify; text-justify: inter-word;">I noticed that the position of System Architect is not within my field of interest. There was no technical challenge in what I was doing and the position was mostly about people and change management. In the true sense of the Agile profile, this may not have been a real "System Architect" role. That's why I decided to return to my original position as a Data Engineer. <br/> <p style="font-weight: bold; text-decoration: underline; display: block; margin-top: 12px;">Big achievements:</p> <ul>
+    <li>Reworked hundreds of Airflow DAGs from copy-paste spaghetti code, to properly structured, minimalistic code using AI.</li>
+    <li>Introduced a more robust DEV &rarr; ACC &rarr; PRO release mechanism for Airflow DAGs since they were previously fully separate.</li>
+    <li>Went against platform guidelines and used dynamic allocation of spark executors in data exploration notebooks. This greatly reduced costs, because idle user notebooks were becoming a big problem.</li>
+</ul></div>
             
               <div class="position-skills d-flex flex-wrap gap-1 mt-2">
                 
@@ -569,8 +571,6 @@
                 
                   <span class="badge rounded-pill border border-primary text-primary" style="font-size:0.75rem; font-weight:500;">Grafana</span>
                 
-                  <span class="badge rounded-pill border border-primary text-primary" style="font-size:0.75rem; font-weight:500;">ETL</span>
-                
               </div>
             
           </div>
@@ -580,7 +580,10 @@
           <div class="card-body">
             <div class="h5 mb-1">Data System Architect <span class="text-muted h6">at KBC Bank & Verzekeringen</span></div>
             <div class="text-muted text-small mb-2">September 2025 - July 2026</div>
-            <div style="text-align: justify; text-justify: inter-word;">The responsibilities for this role carry a lot of similarities with those of a Tech Lead (see previous role for full description). Instead of making an impact at the level of an individual team, I now do so across several teams. In this role, I work more closely with other Data Architects rather than with a Product Owner or Scrum Master. An example of what I'm doing right now is to pioneer the use of new internal software packages and write out guidelines on how and when to use them. Another example revolves around sudden cost increases in our data pipelines, identifying the root cause and coordinating the plan to get that sudden increase eliminated.</div>
+            <div style="text-align: justify; text-justify: inter-word;">The responsibilities for this role carry a lot of similarities with those of a Tech Lead (see previous role for full description). Instead of making an impact at the level of an individual team, I now do so across several teams. In this role, I work more closely with other Data Architects rather than with a Product Owner or Scrum Master. An example of my work was pioneering the use of new internal software packages and writing guidelines on how and when to use them. Another example revolves around sudden cost increases in our data pipelines, identifying the root cause and coordinating the plan to get that sudden increase eliminated. <br/> <p style="font-weight: bold; text-decoration: underline; display: block; margin-top: 12px;">Big achievements:</p> <ul>
+    <li>This one is more about change management: convinced people who were initially reluctant to use Polars instead of PySpark to do data exploration. The result is a decrease in (manual) notebook costs.</li>
+    <li>Pulled the plug on the on-prem Acceptance environment when there was indecisiveness.</li>
+</ul></div>
             
               <div class="position-skills d-flex flex-wrap gap-1 mt-2">
                 
@@ -644,7 +647,10 @@
   <li>Working closely with Data Architects by discussing new policies and eventually rolling them out to the team</li>
   <li>Overseeing Production releases from a technical standpoint</li>
   <li>Monitoring pipeline performance in Grafana and take action when resources are being wasted</li>
-</ul> My deep knowledge in PySpark enables me to design and write highly performant data pipelines. On several occasions I've been able to rewrite pipelines that cost several hundred euros to less than five euros per day, while running 10-20x faster. After such optimizations I conduct live knowledge transfer sessions to a large audience of data engineers (50-100). This is currently my biggest source of energy!</div>
+</ul> <br/> <p style="font-weight: bold; text-decoration: underline; display: block; margin-top: 12px;">Big achievements:</p> <ul>
+    <li>Optimization of PySpark pipelines, the biggest one costing ~€500/day, processing Terrabytes of data and taking 3 hours to run. After optimizing, it costs only ~€5/day and runs in 12 minutes.</li>
+    <li>Organized lots of cross-team (50-100 people) knowledge sharing sessions on writing efficient distributed queries.</li>
+</ul></div>
             
               <div class="position-skills d-flex flex-wrap gap-1 mt-2">
                 
@@ -697,7 +703,10 @@
           <div class="card-body">
             <div class="h5 mb-1">Data Engineer <span class="text-muted h6">at KBC Bank & Verzekeringen</span></div>
             <div class="text-muted text-small mb-2">April 2021 - January 2023</div>
-            <div style="text-align: justify; text-justify: inter-word;">This position revolves mostly around development of data (ETL) pipelines, both on-prem and in the cloud.  Data would come from any system within KBC (SQL servers, SAP, etc.) I used Python, Jupyter, IntelliJ, PySpark, Hadoop, AWS S3, AWS SSM, AWS ECR, AWS Step Functions, DynamoDB and AWS Lambda  in a development context using  the Python boto3 API. I also used Apache Airflow to create DAGs, Docker to create containers that had to run on Airflow and Kubernetes to check on running containers with a faulty status. CI/CD pipelines were set up using Git (BitBucket and Github), Concourse and/or Jenkins, which I occasionally had to modify as well. I received formal trainings in PySpark, Airflow and Terraform, which I also continued to use during my spare time. After one year, I learned a lot and I am now considered to be a senior PySpark developer.</div>
+            <div style="text-align: justify; text-justify: inter-word;">This position revolves mostly around development of data (ETL) pipelines, both on-prem and in the cloud.  Data would come from any system within KBC (SQL servers, SAP, etc.) I used Python, Jupyter, IntelliJ, PySpark, Hadoop, AWS S3, AWS SSM, AWS ECR, AWS Step Functions, DynamoDB and AWS Lambda  in a development context using  the Python boto3 API. I also used Apache Airflow to create DAGs, Docker to create containers that had to run on Airflow and Kubernetes to check on running containers with a faulty status. CI/CD pipelines were set up using Git (BitBucket and Github), Concourse and/or Jenkins, which I occasionally had to modify as well. I received formal trainings in PySpark, Airflow and Terraform, which I also continued to use during my spare time. <br/> <p style="font-weight: bold; text-decoration: underline; display: block; margin-top: 12px;">Big achievements:</p> <ul>
+    <li>Created a testing notebook that is in use until today across multiple teams. It empowered analysts to technically test a pipeline and drastically reduced production issues.</li>
+    <li>I pushed architects to use AWS DynamoDB and AWS Lambda to monitor data freshness. The solution costs pennies per month and still runs today without any changes.</li>
+</ul></div>
             
               <div class="position-skills d-flex flex-wrap gap-1 mt-2">
                 
@@ -716,6 +725,12 @@
                   <span class="badge rounded-pill border border-primary text-primary" style="font-size:0.75rem; font-weight:500;">Columnar storage (parquet)</span>
                 
                   <span class="badge rounded-pill border border-primary text-primary" style="font-size:0.75rem; font-weight:500;">AWS</span>
+                
+                  <span class="badge rounded-pill border border-primary text-primary" style="font-size:0.75rem; font-weight:500;">AWS Lambda</span>
+                
+                  <span class="badge rounded-pill border border-primary text-primary" style="font-size:0.75rem; font-weight:500;">AWS DynamoDB</span>
+                
+                  <span class="badge rounded-pill border border-primary text-primary" style="font-size:0.75rem; font-weight:500;">AWS ECR</span>
                 
                   <span class="badge rounded-pill border border-primary text-primary" style="font-size:0.75rem; font-weight:500;">TerraForm</span>
                 
