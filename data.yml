@@ -103,7 +103,7 @@ work_experience:
       <p style="font-weight: bold; text-decoration: underline; display: block; margin-top: 12px;">Big achievements:</p>
       <ul>
           <li>Created a testing notebook that is in use until today across multiple teams. It empowered analysts to technically test a pipeline and drastically reduced production issues.</li>
-          <li>I pushed architects to use AWS DynamoDB and AWS Lambda to monitor data freshness. The solution costs pennies per month and still runs today without any changes.</li>
+          <li>I challenged architects to expand the AWS landscape and use AWS DynamoDB and AWS Lambda to monitor data freshness. The solution costs pennies per month and still runs today without any changes.</li>
       </ul>
     skills: [
       "Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)", "AWS", "AWS Lambda",
