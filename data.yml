@@ -57,7 +57,7 @@ work_experience:
       <p style="font-weight: bold; text-decoration: underline; display: block; margin-top: 12px;">Big achievements:</p>
       <ul>
           <li>This one is more about change management: convinced people who were initially reluctant to use Polars instead of PySpark to do data exploration. The result is a decrease in (manual) notebook costs.</li>
-          <li>Pulled the plug on the on-prem Acceptance environment when there was indecisiveness.</li>
+          <li>Drove the decision to decommission the on-prem Acceptance environment.</li>
       </ul>
     skills: [
       "Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)", "AWS", "TerraForm",
