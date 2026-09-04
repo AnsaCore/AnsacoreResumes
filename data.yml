@@ -12,8 +12,8 @@ target_rate: €650-€700/day
 github_link: https://github.com/orgs/SamMyllePortfolio/repositories
 work_areas: 'Antwerp'
 
-skills_expert: ["Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)", "Polars", "Git"]
-skills_advanced: ["AWS", "Glue", "EMR", "Azure", "TerraForm", "Docker", "Jenkins", "Pandas", "Iceberg", "Hadoop", "GDPR", "Agile", "MongoDB", "AWS Bedrock", "Agentic AI", "Jinja", "Grafana"]
+skills_expert: ["Python", "PySpark", "Apache Airflow", "SQL", "S3", "ETL", "Columnar storage (parquet)", "Polars", "Git", "AWS", "Docker", "Jenkins"]
+skills_advanced: ["Glue", "EMR", "Azure", "TerraForm", "Pandas", "Iceberg", "Hadoop", "GDPR", "Agile", "MongoDB", "AWS Bedrock", "Agentic AI", "Jinja", "Grafana"]
 skills_basic: ["Data Vault", "Kimball", "Google Cloud Platform", "Quicksight", "Snowflake", "DataBricks", "Postgres", "MySQL", "BIM modelling", "Streamlit", "DBT", "EKS"]
 
 primary_languages:
