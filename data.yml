@@ -5,6 +5,13 @@ introduction: >-
   fields, I use Python because of its great power and ease-of-use. Fun fact: I deployed this CV as a website because I was
   interested in getting to know more about Terraform and AWS Amplify, Lambda, Route53 and API Gateway.
   You can visit this website at <a href="https://sammylle.ansacore.com">sammylle.ansacore.com</a>!
+  <br/>
+  Portfolio:
+  <a href="https://github.com/orgs/SamMyllePortfolio/repositories">github.com/orgs/SamMyllePortfolio/repositories</a>
+  <br/>
+  Linkedin:
+  <a href="https://www.linkedin.com/in/sam-mylle-62b468138/">www.linkedin.com/in/sam-mylle-62b468138/</a>
+
 birth_date: 29/05/1996
 phone_number: +32 498 77 25 03
 email_address: mylle.sam@gmail.com
