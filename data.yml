@@ -39,7 +39,7 @@ work_experience:
       <br/>
       <p style="font-weight: bold; text-decoration: underline; display: block; margin-top: 12px;">Big achievements:</p>
       <ul>
-          <li>Reworked hundreds of Airflow DAGs from copy-paste spaghetti code, to properly structured, minimalistic code using AI.</li>
+          <li>Reworked hundreds of Airflow DAGs from highly duplicated legacy DAG implementations, to properly structured, minimalistic code using AI.</li>
           <li>Achieved a more robust DEV &rarr; ACC &rarr; PRO release mechanism for Airflow DAGs since they were previously fully separate structures.</li>
           <li>Went against platform guidelines and used dynamic allocation of spark executors in data exploration notebooks. This greatly reduced costs, because idle user notebooks were becoming a big problem.</li>
       </ul>
